@@ -1,0 +1,4 @@
+repository "Challenger_of_DEMOnic_City@OneManSquad@cloud"
+  path "/"
+    br "/main"
+    co "/main"
