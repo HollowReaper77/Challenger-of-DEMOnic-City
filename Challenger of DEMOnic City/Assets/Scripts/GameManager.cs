@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuScript : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
 
     public int raceNum;
@@ -12,6 +12,11 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("Race "+ raceNum.ToString());
         Debug.Log(raceNum);
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()
