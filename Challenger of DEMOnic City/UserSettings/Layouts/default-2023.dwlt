@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1521.6
     height: 766.4
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 111
+  controlID: 47
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 58
+  controlID: 48
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 200.8
     height: 433.6
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 352.79993
     height: 716.4
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -416,9 +416,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 54efffff
-      m_LastClickedID: -4268
-      m_ExpandedIDs: 54efffff5cfaffffb8faffff0efbffff
+      m_SelectedIDs: 3cfaffff
+      m_LastClickedID: -1476
+      m_ExpandedIDs: 96faffff0efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -896,9 +896,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1262, y: 2.2799997, z: 904.6427}
+    m_Target: {x: 1261.7155, y: 0.8317364, z: 910.19653}
     speed: 2
-    m_Value: {x: 1262, y: 2.2799394, z: 904.6565}
+    m_Value: {x: 1261.7155, y: 0.8317364, z: 910.19653}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -944,13 +944,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14709802, y: 0.34761688, z: -0.05531731, w: -0.9243727}
+    m_Target: {x: -0.14904538, y: -0.29105708, z: 0.04595865, w: -0.9439064}
     speed: 2
-    m_Value: {x: -0.14709802, y: 0.34761688, z: -0.05531731, w: -0.9243727}
+    m_Value: {x: -0.14904536, y: -0.29105705, z: 0.045958646, w: -0.9439063}
   m_Size:
-    m_Target: 5.6049113
+    m_Target: 3.6267922
     speed: 2
-    m_Value: 5.869017
+    m_Value: 3.6267922
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1026,9 +1026,9 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Assets/PolygonCity/Prefabs/Environments/Custom
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1038,16 +1038,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Assets/PolygonCity/Prefabs/Environments/Custom
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 52830000
-    m_LastClickedID: 33618
-    m_ExpandedIDs: 00000000ec82000000ca9a3b
+    scrollPos: {x: 0, y: 30.199982}
+    m_SelectedIDs: 92900000
+    m_LastClickedID: 37010
+    m_ExpandedIDs: 000000004c830000ac8300004a890000568900009090000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1076,7 +1076,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec820000
+    m_ExpandedIDs: 000000004c830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1104,7 +1104,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ca820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
