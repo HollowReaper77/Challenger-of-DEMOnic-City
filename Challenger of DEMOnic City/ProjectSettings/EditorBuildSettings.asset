@@ -9,7 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/GamePlay.unity
+    path: Assets/Scenes/Race 1.unity
     guid: d0ce2c011b16b334fa80288025b1ce37
+  - enabled: 1
+    path: Assets/Scenes/Race 2.unity
+    guid: 174d45e665b4f854c9604a00555b50d7
+  - enabled: 1
+    path: Assets/Scenes/Race 3.unity
+    guid: 063f7e6fad9e3274ab3d9820e60dcd2c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

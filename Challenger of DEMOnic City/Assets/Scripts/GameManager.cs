@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
-    public void PlayGame()
+
+    public int raceNum;
+
+    public void OpenScene()
     {
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("Race "+ raceNum.ToString());
+        Debug.Log(raceNum);
     }
 
     public void QuitGame()

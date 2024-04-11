@@ -1066,7 +1066,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 862753345169826883, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_text
-      value: Race 3
+      value: Hellway
+      objectReference: {fileID: 0}
+    - target: {fileID: 2813790144029711077, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: raceNum
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5959326575370592763, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_Pivot.x
@@ -1151,6 +1155,10 @@ PrefabInstance:
     - target: {fileID: 7676375341687714583, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_Name
       value: RaceTypeButton 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4495,7 +4503,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 862753345169826883, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_text
-      value: Race 2
+      value: Peer2Peer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2813790144029711077, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: raceNum
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5959326575370592763, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_Pivot.x
@@ -4580,6 +4592,10 @@ PrefabInstance:
     - target: {fileID: 7676375341687714583, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_Name
       value: RaceTypeButton 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5032,6 +5048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67923a2b7cf6970489b9315db955b90a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  raceNum: 0
 --- !u!1001 &1084529393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6171,7 +6188,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 862753345169826883, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_text
-      value: Race 1
+      value: Around Around
+      objectReference: {fileID: 0}
+    - target: {fileID: 2813790144029711077, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: raceNum
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5959326575370592763, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_Pivot.x
@@ -6257,6 +6278,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: RaceTypeButton 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1288014953}
+    - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6267,6 +6308,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5959326575370592763, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
   m_PrefabInstance: {fileID: 1223084835}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1288014953 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2813790144029711077, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
+  m_PrefabInstance: {fileID: 1223084835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67923a2b7cf6970489b9315db955b90a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1334764482
 PrefabInstance:
   m_ObjectHideFlags: 0
