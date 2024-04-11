@@ -385,6 +385,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Scripts/CameraController.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MenuUIHandler.cs"
 "Assets/Scripts/PauseMenu.cs"
