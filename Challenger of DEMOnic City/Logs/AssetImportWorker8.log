@@ -1,0 +1,1009 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.7f1 (0a9195b3d453) revision 692629'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'hu' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/git/dt/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+2671
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/git/dt/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
+D:/git/dt/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1168] Host "[IP] 172.16.101.17 [Port] 0 [Flags] 2 [Guid] 1196513925 [EditorId] 1196513925 [Version] 1048832 [Id] WindowsEditor(7,T532) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1168] Host "[IP] 172.16.101.17 [Port] 0 [Flags] 2 [Guid] 1196513925 [EditorId] 1196513925 [Version] 1048832 [Id] WindowsEditor(7,T532) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.7f1 (0a9195b3d453)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/git/dt/Challenger-of-DEMOnic-City/Challenger of DEMOnic City/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7838 MB
+    Driver:   31.0.12042.9001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003033 seconds.
+- Loaded All Assemblies, in  0.455 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\git\dt\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\git\dt\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.811 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1397ms
+	BeginReloadAssembly (341ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (130ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3173 unused Assets / (1.2 MB). Loaded Objects now: 3746.
+Memory consumption went from 121.4 MB to 120.2 MB.
+Total: 5.625000 ms (FindLiveObjects: 0.418900 ms CreateObjectMapping: 0.221800 ms MarkObjects: 3.926500 ms  DeleteObjects: 1.056500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5407.128201 seconds.
+  path: Assets/Prefabs/Races/Race 1 World.prefab
+  artifactKey: Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race 1 World.prefab using Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd67e050203aa8b4064ae3eafe76897b') in 0.1333811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.990524 seconds.
+  path: Assets/Prefabs/Races/Race 1 World.prefab
+  artifactKey: Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race 1 World.prefab using Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7e86612de2dec28e63f82bfc27a45a7') in 0.0200177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 1596.088678 seconds.
+  path: Assets/Prefabs/Races/Race 1 World.prefab
+  artifactKey: Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race 1 World.prefab using Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b61989aed7737eeaa5f1016df4126a0') in 0.052993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.934449 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base.prefab
+  artifactKey: Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base.prefab using Guid(f9335d8f49d4e3c47bf845180b1cd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2142fcd3c54d390a78b3cf670ec1c5a5') in 0.0102196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.200491 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62b56564c37d80e35c4146348b991452') in 0.0018604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.003768 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4b958980a891f0578d8589550de5cb6') in 0.0193624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.882016 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784a9eeb9ea81c41958910990948f9cd') in 0.0180368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.622344 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7012b7274d05dd4165d05cc75ccc602') in 0.016037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.997958 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd1f306cf2b2e38002df5dbcb5315d7d') in 0.0160632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.626383 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abfbe555dcbc3bf65b8babb34090e015') in 0.0098465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626856 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4aa5558d31c0084573195765ccc05ed2') in 0.0218995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.796306 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95ecb7c1fc0db5f4e83cf3628203d8ad') in 0.0102083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.406868 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd4c2d7a6e7eca5ce62d841166d05683') in 0.0183931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.802366 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e418b8dd8be518cbf44558b50ad49721') in 0.0106143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797912 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '523bac11e46aeda6e0dbe45b6085c6ef') in 0.0218703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.424895 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc2bd8259b183622095ceb95ca3a6763') in 0.0158466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.631127 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04fed91dcb63b062dc36033829121043') in 0.010528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616915 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b362a877ba176772ba30b94e476444') in 0.0159101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 170
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.789707 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4749aa2b5464e7a2fe63489988f6e2') in 0.0103005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 193
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.821073 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f61ae1b29aeca37c9c606230589cf936') in 0.0162868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 193
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.785437 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae987daf22a30ad3c1052c2cd8068741') in 0.0125986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 216
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804438 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c76b1c8e2c456f7a5ab92f36b2acaa89') in 0.0174589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 216
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794878 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b8bc58a48eee31d2eae7969df26b60a') in 0.0133665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 239
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613466 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14808a09da97357785c7f7c619efb889') in 0.0177099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 239
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.992393 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e469ef2fe480bcac6032a2ef94d361e5') in 0.0123291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.418999 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0ff19925073fb6edfb2a21bfe8cf438') in 0.0168599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.317521 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce6e5314b7198838627aad6629633702') in 0.0113198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 285
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.596608 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56350d5fce42734e27b5031bf7e9bd93') in 0.0173164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 285
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.791544 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7ec7d2785412162e3013d47aefe8d06') in 0.0125222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 308
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393538 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70d4ab31347e00126709874b1e0548b2') in 0.0210131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 308
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583711 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc0ac4ccb946fcc479a427350c1a6a06') in 0.0129277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 331
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.399453 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8249297b83c8d6d12b69957804b97dc') in 0.0171103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 331
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.404547 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c30f0271e90df6f68802d82b745142') in 0.0153763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 354
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.005598 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efa27d4b48a31199a645097431710cff') in 0.0191407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 354
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.383297 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf15318064fd5d1d838b6ce5f95fb84') in 0.0131406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 377
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.645705 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c43d1dd05cef4d7ba38e680265fe04c0') in 0.0193912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 377
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.360298 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8c35e3a1a24d6df4a36b3021a123e7f') in 0.0336815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 522
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.452284 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0a054d2d43e398af927768e090226ff') in 0.0280703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 545
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.188393 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '355325ae64b4eb9e34b72e36fa3e9ea4') in 0.0278584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 545
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.120145 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbaed71177f984dbf1b51c9c1dc3baa4') in 0.0243832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 547
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.421300 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b152f9ed22c6bb821eaf205e81dfcc40') in 0.0241254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 547
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.152776 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '985f27c8efe609c6824ca8590e14b228') in 0.0227895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 547
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.839579 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4ef41e5fcf5644600a0ac3be2e1d253') in 0.0245409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 570
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.992893 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd4642a221eab8cb19d41655a9f8f301') in 0.0311372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 570
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.387059 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05219e40dfebcf4cdde6b10d98159633') in 0.0280288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 593
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.782635 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9735e6c119d089df8637e53279f9d1') in 0.0287236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 593
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.786728 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a421bbbaf817837db1e193a3f8a0cb45') in 0.0248254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 616
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.385797 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c70230b7c8fcd0347ae28ead1c1be0ec') in 0.0291191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 616
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.161062 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e47ee32b609c1b258d1695d171e3568a') in 0.0290034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 616
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.991398 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3b36ed47876c1102946cb4a21057514') in 0.0282699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 639
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.381482 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ad42f120da5036e882e0935bb3ff3df') in 0.0285256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 639
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.775732 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19b0130589178758c4ea16010617ff6c') in 0.0255369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 662
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.788507 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bac752a2bef0cc3c54d7de39aad646b') in 0.0301279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 662
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.982240 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48c3573bdef0208aff700241186cc711') in 0.0279367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 685
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.598137 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '857d056604fbf21980c2f8b7a06dc175') in 0.0309317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 685
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.393588 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d5c35f41c545d1c87fce58c2c04d04') in 0.0309554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 685
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.967112 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f8a535b8fb4c0f4861f520d4f356b21') in 0.0203984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.412672 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab4c7bc5e635f3f80d60782a2daf102') in 0.0195516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.465108 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a67e0ef72701c5061b87574dc4882fb') in 0.0208066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.595203 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c25fbcfc954c66eeebf3491de60687e') in 0.0152935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.803697 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8611682b60a7701abd5826ed99d6c92') in 0.0202086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.596402 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e77669810f62b84f1148e5fd822ab69a') in 0.022289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.401046 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '278f677409304a7f016a0745a4ba7a0d') in 0.0200706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.207864 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cd273ee5ba5bdff2335d41b8c8134b2') in 0.0181627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.590010 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2381189d9ce7d120dd19099056068cd') in 0.0201292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402562 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d5e21d84d80f7478249d4706428bd84') in 0.0204203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.396871 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f1f769d6a459ada706ccbef3fccc80c') in 0.0216364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194120 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e69273006d4a34235a55469000efb2c8') in 0.0205438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.993141 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5114b48c072ed5b51ae1a29fd05112c') in 0.0194002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194541 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51816b8d43a56dc3e4387349bad3b3d7') in 0.0214918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.198911 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdf0fa71be4b00a090f27024cbb67d96') in 0.0205578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.797904 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c87ae01fdfbc15adc4d640e7a5222dbb') in 0.0206377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.593113 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0df0162fe3f1bff80bfd661cc1cb469f') in 0.0216987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.596395 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '974f0b0c3ca3bfe9f5a084666c97b014') in 0.0214084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 517
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.603702 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de5ad9a5db371e84b6e802c3e3783235') in 0.020418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 977
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.220182 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12255773436a12b6cbff01b39ab3f209') in 0.0268371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 977
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.627555 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b986b4b55e203c178fc0da73e71e24aa') in 0.0246857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 977
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.420107 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab4051a0589c8a1cbb3600896bfb37d8') in 0.0191313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 977
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.383329 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '429b750a8e87088ef06ea1f393b0debc') in 0.0214337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 977
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.339451 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (16).prefab
+  artifactKey: Guid(ee16f26eb408ffa408a009b1d3388b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (16).prefab using Guid(ee16f26eb408ffa408a009b1d3388b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7e0efa6e17b38983cdc0c97c3ee13e0') in 0.0154766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010779 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (1).prefab
+  artifactKey: Guid(a469e052054ecb2408cabdafb1b5944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (1).prefab using Guid(a469e052054ecb2408cabdafb1b5944d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc7b95b7c94e2975f7a27fc41c5f4b28') in 0.0210933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (13).prefab
+  artifactKey: Guid(50e31d7d00b46ea4fa86ed52d12664cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (13).prefab using Guid(50e31d7d00b46ea4fa86ed52d12664cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '505f8b8370d6f797e78dae1852933d86') in 0.0221052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (23).prefab
+  artifactKey: Guid(aa559ebc6047e4648a7ba9e1d32b24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (23).prefab using Guid(aa559ebc6047e4648a7ba9e1d32b24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eac4307bcf957bd4ae77e4ca11801969') in 0.0259663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (26).prefab
+  artifactKey: Guid(80dcc48bedf5c254cb3f753b94d90f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (26).prefab using Guid(80dcc48bedf5c254cb3f753b94d90f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c79784877c7102ab78e8dc1d12e8b91') in 0.0230486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (24).prefab
+  artifactKey: Guid(7526895fb12a52644a39a79fd0cfad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (24).prefab using Guid(7526895fb12a52644a39a79fd0cfad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b772809c5f032e0edb4060c9e3cc7d9') in 0.0213316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (25).prefab
+  artifactKey: Guid(cbdfd3ca97c3a494d8d459d0d2d1d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (25).prefab using Guid(cbdfd3ca97c3a494d8d459d0d2d1d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a9ab294de962c10cca3ce71d152d167') in 0.0257464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (14).prefab
+  artifactKey: Guid(3bce596716468874eb4c62235f0cc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (14).prefab using Guid(3bce596716468874eb4c62235f0cc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcb69791c502cb20ae52d7779ed63470') in 0.0207562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (9).prefab
+  artifactKey: Guid(78176ea80ed575e46887c650e7b8c7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (9).prefab using Guid(78176ea80ed575e46887c650e7b8c7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8abf38f5be8e645a49864d6256e5e082') in 0.0255983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (11).prefab
+  artifactKey: Guid(b06c3c240e1b0ca44b5aa5cb94b2f265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (11).prefab using Guid(b06c3c240e1b0ca44b5aa5cb94b2f265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9afd7e0c6b0ab741665d69561fdcd0bf') in 0.0183852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (15).prefab
+  artifactKey: Guid(7e8ad787345e46a4da6dfca80277b4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (15).prefab using Guid(7e8ad787345e46a4da6dfca80277b4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d384d5eb7ed200642dc756e5494dea') in 0.0199167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (7).prefab
+  artifactKey: Guid(4c354264ac259fa4f8a29d16fab4c199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (7).prefab using Guid(4c354264ac259fa4f8a29d16fab4c199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18421c8fe60bac2da925ba88bf95be6e') in 0.022617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (32).prefab
+  artifactKey: Guid(f3202f3540695334e8c29ad6b0d47110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (32).prefab using Guid(f3202f3540695334e8c29ad6b0d47110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09fc0c322238f9bbf70a8ec95e74ea66') in 0.0205832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (18).prefab
+  artifactKey: Guid(76f74c0a1e922254caf98f952bbcd1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (18).prefab using Guid(76f74c0a1e922254caf98f952bbcd1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c83942515175f4dad0367968d478c9f3') in 0.0230148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (20).prefab
+  artifactKey: Guid(97a9e8bb7a2c72c46a5a61f8260f1ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (20).prefab using Guid(97a9e8bb7a2c72c46a5a61f8260f1ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '443fcbcf250fbfed674fb65690df4f19') in 0.0191655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (6).prefab
+  artifactKey: Guid(624cc8f414ee8c54980fe536a6885880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (6).prefab using Guid(624cc8f414ee8c54980fe536a6885880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76b68507709bcf7b98711f3a8f6fb4f3') in 0.0222102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (33).prefab
+  artifactKey: Guid(f9cf3bbdd8de91744a21f5f9aa9ee409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (33).prefab using Guid(f9cf3bbdd8de91744a21f5f9aa9ee409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24b1f0572b4fb46df42a7a9da4bc7f46') in 0.0220624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (4).prefab
+  artifactKey: Guid(80007e6c72c8c644c8a82c69ecb7c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (4).prefab using Guid(80007e6c72c8c644c8a82c69ecb7c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80ede1ba01fe0c8a3296f71764934e3b') in 0.0208896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (17).prefab
+  artifactKey: Guid(b67202aff143fe042a9d9e14d0166399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (17).prefab using Guid(b67202aff143fe042a9d9e14d0166399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d8fefb8676369a5439c1c7504eb6c9f') in 0.0216204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (8).prefab
+  artifactKey: Guid(5e75871368eab094296e54516572c707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (8).prefab using Guid(5e75871368eab094296e54516572c707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3f6e9e64085906ef1261e37c4c8ba18') in 0.0237904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.447773 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (35).prefab
+  artifactKey: Guid(5cf10f213b76f8f4d926803ad9698f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (35).prefab using Guid(5cf10f213b76f8f4d926803ad9698f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c03d14c11674f7546ae0e66f214002b') in 0.0215774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Prefabs/Races/MainRoad_Base (39).prefab
+  artifactKey: Guid(8923310b718690143b70242a595ba6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/MainRoad_Base (39).prefab using Guid(8923310b718690143b70242a595ba6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5605c591a2fb8723bc752de4b91cb025') in 0.0214761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
