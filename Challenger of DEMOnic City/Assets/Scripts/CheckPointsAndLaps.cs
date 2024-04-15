@@ -1,3 +1,4 @@
+using NUnit.Framework.Internal;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -41,10 +42,23 @@ public class CheckPointsAndLaps : MonoBehaviour
         if (started && !finished)
         {
             currentLapTime += Time.deltaTime;
+
+            if (bestLap == 0)
+            {
+                bestLap = 1;
+            }
+        }
+
+        if (started)
+        {
+            if (bestLap == currentLap)
+            {
+                bestLapTime = currentLapTime;
+            }
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Checkpoint"))
         {
@@ -109,7 +123,7 @@ public class CheckPointsAndLaps : MonoBehaviour
         string formattedCurrentTime = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.00}+ (Lap: {currentLap}";
         GUI.Label(new Rect(50, 10, 250, 100), formattedCurrentTime);
 
-        string formattedBestTime = $"Current: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.00} + (Lap: {bestLap})";
-        GUI.Label(new Rect(50, 10, 250, 100), formattedBestTime);
+        string formattedBestTime = $"Best: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.00} + (Lap: {bestLap})";
+        GUI.Label(new Rect(250, 10, 250, 100), formattedBestTime);
     }
 }

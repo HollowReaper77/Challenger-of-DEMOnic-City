@@ -1,8 +1,12 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="MenuScript" preserve="nothing"/>
+		<type fullname="CheckPointsAndLaps" preserve="nothing"/>
+		<type fullname="GameManager" preserve="nothing"/>
+		<type fullname="PauseMenu" preserve="nothing"/>
+		<type fullname="PlayerController" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TextMeshPro" preserve="nothing"/>
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 		<type fullname="TMPro.TMP_ColorGradient" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
@@ -48,6 +52,7 @@
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>

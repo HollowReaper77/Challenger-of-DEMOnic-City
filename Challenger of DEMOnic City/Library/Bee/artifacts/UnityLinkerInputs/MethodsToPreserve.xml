@@ -1,14 +1,13 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
-		<type fullname="MenuScript">
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
+		<type fullname="GameManager">
+			<method name="BackToMenu"/>
+			<method name="BackToMenu"/>
+			<method name="OpenScene"/>
+			<method name="OpenScene"/>
+			<method name="OpenScene"/>
+			<method name="QuitGame"/>
+			<method name="QuitGame"/>
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
 		</type>
@@ -33,9 +32,15 @@
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
-		</type>
-		<type fullname="UnityEngine.Object">
-			<method name="set_name"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
 		</type>
 	</assembly>
 </linker>
