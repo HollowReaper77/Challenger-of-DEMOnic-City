@@ -5,12 +5,22 @@ using UnityEngine;
 public class CheckpointSingle : MonoBehaviour
 {
     private TrackCheckpoints trackCheckpoints;
+
+    private Rigidbody playerRB;
+
+    private void Start()
+    {
+        playerRB = GetComponent<Rigidbody>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<Player>(out Player player))
+
+        if (other.TryGetComponent<playerRB>(out playerRB player))
         {
             trackCheckpoints.PlayerThroughCheckpoint(this);
         }
+        
     }
 
     public void SetTrackCheckpoints(TrackCheckpoints trackCheckpoints)
