@@ -2,6 +2,7 @@ using NUnit.Framework.Internal;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CheckPointsAndLaps : MonoBehaviour
 {
@@ -26,6 +27,19 @@ public class CheckPointsAndLaps : MonoBehaviour
     private float bestLapTime;
     private float bestLap;
 
+
+
+    [Header("UIinformation")]
+    public TextMeshProUGUI warningText;
+
+    /*
+    public TextMeshProUGUI lap;
+    public TextMeshProUGUI bestlap;
+    public TextMeshProUGUI time;
+    public TextMeshProUGUI bestTime;
+    public TextMeshProUGUI progress;
+    */
+
     private void Start()
     {
         currentCheckpoint = 0;
@@ -36,7 +50,12 @@ public class CheckPointsAndLaps : MonoBehaviour
 
         currentLapTime = 0;
         bestLapTime = 0;
+        bestLap = 0;
+
+        warningText.text = " ";
+
     }
+
     private void Update()
     {
         if (started && !finished)
@@ -63,31 +82,47 @@ public class CheckPointsAndLaps : MonoBehaviour
         if (other.CompareTag("Checkpoint"))
         {
             GameObject thisCheckpoint = other.gameObject;
-
+            
+            // Race Start
             if (thisCheckpoint == start && !started)
             {
                 Debug.Log("Started");
+                warningText.text = "Start!";
                 started = true;
             }
+            // End of the lap/race
             else if (thisCheckpoint == end && started)
             {
+                // If all checkpoints activated then the race is ended
                 if (currentLap == laps)
                 {
                     if (currentCheckpoint == checkpoints.Length)
                     {
+                        if (currentLapTime < bestLapTime)
+                        {
+                            bestLap = currentLap;
+                        }
                         finished = true;
                         started = false;
                         Debug.Log("Finished");
+                        warningText.text = "Finished!";
                     }
                     else
                     {
                         Debug.Log("Missing checkpoints");
+                        warningText.text = "Missing checkpoints";
                     }
                 }
+                //
                 else if (currentLap < laps)
                 {
                     if (currentCheckpoint == checkpoints.Length)
                     {
+                        if (currentLapTime < bestLapTime)
+                        {
+                            bestLap = currentLap;
+                            bestLapTime = currentLapTime;
+                        }
                         currentLap++;
                         currentCheckpoint = 0;
                         currentLapTime = 0;
@@ -97,22 +132,29 @@ public class CheckPointsAndLaps : MonoBehaviour
                 else
                 {
                     Debug.Log("Missing Checkpoints");
+                    warningText.text = "Missing checkpoints";
                 }
             }
+            //
             for (int i = 0; i < checkpoints.Length; i++)
             {
                 if (finished)
-                {
+                //{
                     return;
-                }
+                //}
+
+                //
                 if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint)
                 {
                     Debug.Log("Correct checkpoint");
+                    warningText.text = "Correct checkpoint";
                     currentCheckpoint++;
                 }
+                //
                 else if(thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
                 {
                     Debug.Log("Wrong checkpoint");
+                    warningText.text = "Wrong checkpoint";
                 }
             }
         }
@@ -120,7 +162,7 @@ public class CheckPointsAndLaps : MonoBehaviour
 
     private void OnGUI()
     {
-        string formattedCurrentTime = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.00}+ (Lap: {currentLap}";
+        string formattedCurrentTime = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.00}+ (Lap: {currentLap})";
         GUI.Label(new Rect(50, 10, 250, 100), formattedCurrentTime);
 
         string formattedBestTime = $"Best: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.00} + (Lap: {bestLap})";
