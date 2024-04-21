@@ -15,7 +15,7 @@ C:/Git/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52393
+65087
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Git/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4296] Host "[IP] 169.254.10.46 [Port] 0 [Flags] 2 [Guid] 1039501778 [EditorId] 1039501778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEOHDT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [4296] Host "[IP] 169.254.10.46 [Port] 0 [Flags] 2 [Guid] 1039501778 [EditorId] 1039501778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEOHDT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4536] Host "[IP] 169.254.34.79 [Port] 0 [Flags] 2 [Guid] 3193000771 [EditorId] 3193000771 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEOHDT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4536] Host "[IP] 169.254.34.79 [Port] 0 [Flags] 2 [Guid] 3193000771 [EditorId] 3193000771 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEOHDT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.7f1 (0a9195b3d453)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -71,15 +71,15 @@ Initialize engine version: 2023.2.7f1 (0a9195b3d453)
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
-    Vendor:   ATI
-    VRAM:     16086 MB
-    Driver:   31.0.21902.5
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5222
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012466 seconds.
-- Loaded All Assemblies, in  1.057 seconds
+Registered in 0.014386 seconds.
+- Loaded All Assemblies, in  1.404 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.728 seconds
-Domain Reload Profiling: 1778ms
-	BeginReloadAssembly (407ms)
+- Finished resetting the current domain, in  0.977 seconds
+Domain Reload Profiling: 2365ms
+	BeginReloadAssembly (420ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (45ms)
-	initialDomainReloadingComplete (133ms)
-	LoadAllAssembliesAndSetupDomain (402ms)
-		LoadAssemblies (389ms)
+	RebuildCommonClasses (157ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (209ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (409ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (397ms)
-			TypeCache.Refresh (395ms)
-				TypeCache.ScanAssembly (372ms)
+		AnalyzeDomain (542ms)
+			TypeCache.Refresh (538ms)
+				TypeCache.ScanAssembly (501ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (729ms)
+	FinalizeReload (978ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (646ms)
+		SetupLoadedEditorAssemblies (833ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (26ms)
 			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (18ms)
-			ProcessInitializeOnLoadAttributes (515ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (623ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,133 +150,76 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.778 seconds
-Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.314 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.401 seconds
-Domain Reload Profiling: 4169ms
-	BeginReloadAssembly (802ms)
+- Finished resetting the current domain, in  2.507 seconds
+Domain Reload Profiling: 4810ms
+	BeginReloadAssembly (1068ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (786ms)
-		LoadAssemblies (623ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (976ms)
+		LoadAssemblies (743ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (406ms)
-			TypeCache.Refresh (336ms)
-				TypeCache.ScanAssembly (309ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2402ms)
+		AnalyzeDomain (495ms)
+			TypeCache.Refresh (422ms)
+				TypeCache.ScanAssembly (390ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1824ms)
+		SetupLoadedEditorAssemblies (1926ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (1586ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (1668ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3178 unused Assets / (1.1 MB). Loaded Objects now: 3751.
-Memory consumption went from 121.3 MB to 120.2 MB.
-Total: 16.766900 ms (FindLiveObjects: 1.051700 ms CreateObjectMapping: 0.952400 ms MarkObjects: 11.978500 ms  DeleteObjects: 2.780900 ms)
+Unloading 3178 unused Assets / (1.2 MB). Loaded Objects now: 3751.
+Memory consumption went from 121.4 MB to 120.2 MB.
+Total: 16.955600 ms (FindLiveObjects: 0.724500 ms CreateObjectMapping: 0.629100 ms MarkObjects: 12.616500 ms  DeleteObjects: 2.982800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 208010.496945 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_Paper_04.fbx
-  artifactKey: Guid(f2bacc97b0f619e4ab69a9236a580b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_Paper_04.fbx using Guid(f2bacc97b0f619e4ab69a9236a580b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b885e32b80a826dc5389ff79b8370d46') in 0.4043265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 190725.224331 seconds.
+  path: Assets/Scenes/Race 1.unity
+  artifactKey: Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 1.unity using Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9abc518c3d82fd1cd42dd092057115b') in 0.0221149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_LightPole_Box_01.fbx
-  artifactKey: Guid(1c1345b159956db41b2c95e65f6dd86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_LightPole_Box_01.fbx using Guid(1c1345b159956db41b2c95e65f6dd86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5ac716555af4309573f75027bdcfbee') in 0.0505429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 8.319064 seconds.
+  path: Assets/Prefabs/UI Elements/RaceCountDown.prefab
+  artifactKey: Guid(7912f8b8156108945ad0d4f0f61c375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Elements/RaceCountDown.prefab using Guid(7912f8b8156108945ad0d4f0f61c375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed3d1600a8c0e4fd7dc861168e46962a') in 0.2641919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_LightPole_CrossButton_01.fbx
-  artifactKey: Guid(0163278e6a1e5d74099ded2c752faa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_LightPole_CrossButton_01.fbx using Guid(0163278e6a1e5d74099ded2c752faa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd672f11221ba39b5eed3bc93331a7522') in 0.0487997 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_Newspaper_01.fbx
-  artifactKey: Guid(5f4ac7e51a01dbd47aae19795a58cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_Newspaper_01.fbx using Guid(5f4ac7e51a01dbd47aae19795a58cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25929c74c4c2b5ef9c1ce39342f28bd9') in 0.0499992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_Pipe_Part_Connect_01.fbx
-  artifactKey: Guid(efde0704c0b00d74eaa18692b18b3253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_Pipe_Part_Connect_01.fbx using Guid(efde0704c0b00d74eaa18692b18b3253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a5b5ab600c0df01c55f9cd4c2bb1092') in 0.0490623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_Pipe_Part_Corner_01.fbx
-  artifactKey: Guid(abd37f546e0fac146a8fbdbf9324a0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_Pipe_Part_Corner_01.fbx using Guid(abd37f546e0fac146a8fbdbf9324a0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21897f5191de051d614ccb2e759ee517') in 0.0565049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_Pipe_Part_T_01.fbx
-  artifactKey: Guid(c30c0841723e49f4ebbac95faf3037df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_Pipe_Part_T_01.fbx using Guid(c30c0841723e49f4ebbac95faf3037df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '075aa72de4dd4a03abb782c03f5f161b') in 0.0615253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Assets/PolygonCity/Models/SM_Prop_ParkingMeter_01.fbx
-  artifactKey: Guid(bc6d4e50475f85448a0345adc55750e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/PolygonCity/Models/SM_Prop_ParkingMeter_01.fbx using Guid(bc6d4e50475f85448a0345adc55750e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c695dac2e91cef716c1369fb1c6af170') in 0.0412566 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.901009 seconds.
-  path: Assets/Prefabs/Races/FinnishLine.prefab
-  artifactKey: Guid(7b8f927dc180f1e41a0755183e116bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Races/FinnishLine.prefab using Guid(7b8f927dc180f1e41a0755183e116bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b872e91c3f9212eb4ed07ae5809bf289') in 0.0436787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081967 seconds.
-  path: Assets/Prefabs/Races/MainRoad_Part_Half.prefab
-  artifactKey: Guid(3e1b776d2d67d4e489099331df2ef334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Races/MainRoad_Part_Half.prefab using Guid(3e1b776d2d67d4e489099331df2ef334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078cd26e21c0c070f4a98a9acaf7d092') in 0.0794959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 515
+  Time since last request: 0.000081 seconds.
+  path: Assets/Prefabs/UI Elements/RaceUI.prefab
+  artifactKey: Guid(b9464fea3b285f14f934803fd6001172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Elements/RaceUI.prefab using Guid(b9464fea3b285f14f934803fd6001172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff9cd3260da1b9da8cd91a195a38601a') in 0.0548427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

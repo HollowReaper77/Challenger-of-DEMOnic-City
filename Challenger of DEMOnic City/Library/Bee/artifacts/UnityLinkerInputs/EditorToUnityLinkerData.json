@@ -599,6 +599,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderTexture",
+            "fullManagedTypeName": "UnityEngine.RenderTexture",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Race 1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Rigidbody",
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
@@ -720,6 +729,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.LayoutElement",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.RawImage",
             "moduleName": "",
             "usedInScenes": []
         },

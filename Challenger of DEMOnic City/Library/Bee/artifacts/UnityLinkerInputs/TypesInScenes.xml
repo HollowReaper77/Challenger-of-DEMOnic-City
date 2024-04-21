@@ -52,6 +52,7 @@
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderTexture" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
@@ -69,6 +70,7 @@
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>
 	</assembly>
 </linker>

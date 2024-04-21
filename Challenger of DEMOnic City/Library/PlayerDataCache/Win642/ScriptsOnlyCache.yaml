@@ -36,6 +36,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
   serializedClasses:
     Unity.TextMeshPro:
@@ -76,6 +77,63 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: OpenScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: QuitGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: QuitGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -87,21 +145,6 @@ ScriptsOnlyBuild:
     methodName: OpenScene
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
-    methodName: QuitGame
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
     methodName: OpenScene
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
@@ -124,51 +167,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: QuitGame
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: QuitGame
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: QuitGame
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: OpenScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -219,7 +220,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17838}
+      Script: {instanceID: 17836}
     - Class: 114
       Script: {instanceID: 24432}
     - Class: 114
@@ -295,6 +296,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -319,6 +322,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 28642}
     - Class: 114
       Script: {instanceID: 29138}
+    - Class: 114
+      Script: {instanceID: 29252}
     - Class: 114
       Script: {instanceID: 29406}
     - Class: 114
@@ -387,6 +392,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 28642}
     - Class: 114
+      Script: {instanceID: 29252}
+    - Class: 114
       Script: {instanceID: 29454}
     - Class: 115
       Script: {instanceID: 0}
@@ -447,6 +454,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 27820}
     - Class: 114
       Script: {instanceID: 28642}
+    - Class: 114
+      Script: {instanceID: 29252}
     - Class: 114
       Script: {instanceID: 29454}
     - Class: 115
@@ -1504,5 +1513,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Race 1.unity
   - Assets/Scenes/Race 2.unity
   - Assets/Scenes/Race 3.unity
-  playerPath: C:/Git/Challenger-of-DEMOnic-City/Demos/Demo 2.1/Challenger of DEMOnic
+  playerPath: C:/Git/Challenger-of-DEMOnic-City/Demos/Demo 2.1.1/Challenger of DEMOnic
     City.exe
