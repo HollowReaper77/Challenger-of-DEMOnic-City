@@ -393,6 +393,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/KeyBindigScript.cs"
 "Assets/Scripts/MenuUIHandler.cs"
+"Assets/Scripts/OriginalCheckPointsAndLaptimeScript.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
