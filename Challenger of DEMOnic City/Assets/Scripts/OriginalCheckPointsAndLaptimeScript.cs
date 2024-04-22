@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckpointsAndLaps : MonoBehaviour
+public class OriginalCheckPointsAndLaptimeScript : MonoBehaviour
 {
     [Header("Points")]
     public GameObject start;

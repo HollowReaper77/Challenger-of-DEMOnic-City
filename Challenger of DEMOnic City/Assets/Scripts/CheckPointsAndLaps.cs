@@ -15,7 +15,7 @@ public class CheckPointsAndLaps : MonoBehaviour
     public GameObject[] checkpoints;
 
     [Header("Settings")]
-    private float laps = 1;
+    public float laps = 1;
 
     [Header("Information")]
 
@@ -104,7 +104,7 @@ public class CheckPointsAndLaps : MonoBehaviour
                             bestLap = currentLap;
                         }
                         finished = true;
-                        started = false;
+                        //started = false;
                         Debug.Log("Finished");
                         warningText.text = "Finished!";
                     }
@@ -137,26 +137,28 @@ public class CheckPointsAndLaps : MonoBehaviour
                 }
             }
             //
+
             for (int i = 0; i < checkpoints.Length; i++)
             {
                 if (finished)
-                //{
+                {
                     return;
-                //}
+                }
 
                 //
-                if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint)
+                if (thisCheckpoint == checkpoints[i] && i+1 == currentCheckpoint+1)
                 {
                     Debug.Log("Correct checkpoint");
                     warningText.text = "Correct checkpoint";
                     currentCheckpoint++;
                 }
                 //
-                else if(thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
+                else if(thisCheckpoint == checkpoints[i] && i+1 != currentCheckpoint+1)
                 {
                     Debug.Log("Wrong checkpoint");
                     warningText.text = "Wrong checkpoint";
                 }
+                Debug.Log("this check:"+thisCheckpoint +"\n listchecks:" +checkpoints[i]+"\n for I: " + i+1 +"\n current:"+ currentCheckpoint + 1);
             }
         }
     }
