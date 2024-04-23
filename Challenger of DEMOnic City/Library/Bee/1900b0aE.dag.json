@@ -35800,8 +35800,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1566668,
       "PayloadLength": 39006,
+=======
+      "PayloadOffset": 1566827,
+      "PayloadLength": 38887,
+>>>>>>> parent of 0ccfa45c (Debug the checkpointsystem)
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -35817,7 +35822,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1605761,
+=======
+      "PayloadOffset": 1605801,
+>>>>>>> parent of 0ccfa45c (Debug the checkpointsystem)
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -36104,7 +36113,6 @@
         "Assets/Scripts/MenuUIHandler.cs",
         "Assets/Scripts/PauseMenu.cs",
         "Assets/Scripts/PlayerController.cs",
-        "Assets/Scripts/Teszt.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
@@ -36450,8 +36458,11 @@
         0,
         0,
         0,
+<<<<<<< HEAD
         0,
         0,
+=======
+>>>>>>> parent of 0ccfa45c (Debug the checkpointsystem)
         8
       ],
       "Outputs": [
@@ -36734,7 +36745,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1605857,
+=======
+      "PayloadOffset": 1605897,
+>>>>>>> parent of 0ccfa45c (Debug the checkpointsystem)
       "PayloadLength": 11618,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],

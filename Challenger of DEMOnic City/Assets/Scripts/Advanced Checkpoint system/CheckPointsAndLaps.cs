@@ -15,7 +15,7 @@ public class CheckPointsAndLaps : MonoBehaviour
     public GameObject[] checkpoints;
 
     [Header("Settings")]
-    public float laps = 1;
+    private float laps = 1;
 
     [Header("Information")]
 
@@ -104,7 +104,7 @@ public class CheckPointsAndLaps : MonoBehaviour
                             bestLap = currentLap;
                         }
                         finished = true;
-                        //started = false;
+                        started = false;
                         Debug.Log("Finished");
                         warningText.text = "Finished!";
                     }
@@ -137,28 +137,39 @@ public class CheckPointsAndLaps : MonoBehaviour
                 }
             }
             //
+<<<<<<< HEAD:Challenger of DEMOnic City/Assets/Scripts/Advanced Checkpoint system/CheckPointsAndLaps.cs
 
             for (int i = 1; i < checkpoints.Length; i++)
+=======
+            for (int i = 0; i < checkpoints.Length; i++)
+>>>>>>> parent of 0ccfa45c (Debug the checkpointsystem):Challenger of DEMOnic City/Assets/Scripts/CheckPointsAndLaps.cs
             {
                 if (finished)
-                {
+                //{
                     return;
-                }
+                //}
 
                 //
+<<<<<<< HEAD:Challenger of DEMOnic City/Assets/Scripts/Advanced Checkpoint system/CheckPointsAndLaps.cs
                 if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint+1)
+=======
+                if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint)
+>>>>>>> parent of 0ccfa45c (Debug the checkpointsystem):Challenger of DEMOnic City/Assets/Scripts/CheckPointsAndLaps.cs
                 {
                     Debug.Log("Correct checkpoint");
                     warningText.text = "Correct checkpoint";
                     currentCheckpoint++;
                 }
                 //
+<<<<<<< HEAD:Challenger of DEMOnic City/Assets/Scripts/Advanced Checkpoint system/CheckPointsAndLaps.cs
                 else if(thisCheckpoint == checkpoints[i] && i != currentCheckpoint+1)
+=======
+                else if(thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
+>>>>>>> parent of 0ccfa45c (Debug the checkpointsystem):Challenger of DEMOnic City/Assets/Scripts/CheckPointsAndLaps.cs
                 {
                     Debug.Log("Wrong checkpoint");
                     warningText.text = "Wrong checkpoint";
                 }
-                Debug.Log("this check:"+thisCheckpoint +"\n listchecks:" +checkpoints[i]+"\n for I: " + i+1 +"\n current:"+ currentCheckpoint + 1);
             }
         }
     }
