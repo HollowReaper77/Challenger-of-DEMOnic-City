@@ -137,7 +137,7 @@ public class CheckPointsAndLaps : MonoBehaviour
                 }
             }
             //
-
+            
             for (int i = 0; i < checkpoints.Length; i++)
             {
                 if (finished)
@@ -158,8 +158,31 @@ public class CheckPointsAndLaps : MonoBehaviour
                     Debug.Log("Wrong checkpoint");
                     warningText.text = "Wrong checkpoint";
                 }
-                Debug.Log("this check:"+thisCheckpoint +"\n listchecks:" +checkpoints[i]+"\n for I: " + i+1 +"\n current:"+ currentCheckpoint + 1);
+                //Debug.Log("this check:"+thisCheckpoint +"\n listchecks:" +checkpoints[i]+"\n for I: " + i+1 +"\n current:"+ currentCheckpoint + 1);
             }
+            
+            /*
+            // Loop through the checkpoints to compare and check which one the player touched
+            for (int i = 1; i < checkpoints.Length; i++)
+            {
+                if (finished)
+                    return;
+
+                // If the checkpoint is correct
+                if (thisCheckpoint == checkpoints[i] && i + 1 == currentCheckpoint + 1)
+                {
+                    print($"Correct Checkpoint: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000}");
+                    currentCheckpoint++;
+                    warningText.text = "Correct checkpoint";
+                }
+                // If the checkpoint is incorrect
+                else if (thisCheckpoint == checkpoints[i] && i + 1 != currentCheckpoint + 1)
+                {
+                    print($"Incorrect checkpoint");
+                    warningText.text = "Wrong checkpoint";
+                }
+            }
+            */
         }
     }
 
