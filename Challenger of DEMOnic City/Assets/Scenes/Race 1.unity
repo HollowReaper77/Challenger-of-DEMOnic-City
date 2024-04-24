@@ -1480,9 +1480,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 591967127}
-  m_Layer: 0
-  m_Name: Checkpoints (1)
-  m_TagString: Untagged
+  m_Layer: 11
+  m_Name: Checkpoints
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1922,7 +1922,7 @@ GameObject:
   - component: {fileID: 852926557}
   - component: {fileID: 852926556}
   - component: {fileID: 852926555}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 4
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -2539,7 +2539,7 @@ GameObject:
   - component: {fileID: 1211859298}
   - component: {fileID: 1211859297}
   - component: {fileID: 1211859296}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 5
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -2839,7 +2839,7 @@ GameObject:
   - component: {fileID: 1424253338}
   - component: {fileID: 1424253337}
   - component: {fileID: 1424253336}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 3
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -2949,7 +2949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1524428256}
   m_Layer: 11
-  m_Name: Checkpoints
+  m_Name: Checkpointsasd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3657,7 +3657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8813101261370622103, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -3669,10 +3669,10 @@ PrefabInstance:
       addedObject: {fileID: 1738829783}
     - targetCorrespondingSourceObject: {fileID: 4071169820161554586, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1738829786}
+      addedObject: {fileID: 1738829789}
     - targetCorrespondingSourceObject: {fileID: 4071169820161554586, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1738829789}
+      addedObject: {fileID: 1738829791}
     - targetCorrespondingSourceObject: {fileID: 8215111646708889477, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1633284542}
@@ -3698,25 +3698,6 @@ MonoBehaviour:
   playerTurnSpeed: 30
   horizontalInput: 0
   forwardInput: 0
---- !u!114 &1738829786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738829781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c77cdd5b2eabd443a2faee23bf28126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  start: {fileID: 1838926369}
-  end: {fileID: 1211859294}
-  checkpoints:
-  - {fileID: 2034144553}
-  - {fileID: 1424253334}
-  - {fileID: 852926553}
-  laps: 1
 --- !u!114 &1738829789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3730,6 +3711,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlType: 0
+--- !u!114 &1738829791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738829781}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c77cdd5b2eabd443a2faee23bf28126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {fileID: 1838926369}
+  end: {fileID: 1211859294}
+  checkpoints:
+  - {fileID: 2034144553}
+  - {fileID: 1424253334}
+  - {fileID: 852926553}
+  - {fileID: 1211859294}
+  laps: 1
 --- !u!4 &1769309939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3896765624761436187, guid: c2c9108504d1b1e498904a245f647309, type: 3}
@@ -3808,7 +3809,7 @@ GameObject:
   - component: {fileID: 1838926373}
   - component: {fileID: 1838926372}
   - component: {fileID: 1838926371}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 1
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
@@ -4489,7 +4490,7 @@ GameObject:
   - component: {fileID: 2034144557}
   - component: {fileID: 2034144556}
   - component: {fileID: 2034144555}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 2
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}

@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         Debug.Log("EndLap - LapTime was "+ LastLapTime + "seconds");
 
     }
-
+    // kivételeket megírni, hogy például és módosítani az OldCheckpointSystem alapján
     void OnTriggerEnter(Collider collider)
     {
         if(collider.gameObject.layer != checkpointLayer)
