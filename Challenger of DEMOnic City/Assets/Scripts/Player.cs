@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
         if (collider.gameObject.name == (lastCheckpointPassed+1).ToString())
         {
             lastCheckpointPassed++;
-            Debug.Log("Checkpoint passed");
+            Debug.Log("Checkpoint passed"+lastCheckpointPassed);
         }
     }
     // Update is called once per frame
