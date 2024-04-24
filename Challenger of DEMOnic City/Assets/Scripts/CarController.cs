@@ -8,9 +8,7 @@ public class CarController : MonoBehaviour
 
     public float motorTorque = 890f; //100f
     public float maxSteer = 20f;
-
-
-
+ 
     public float Steer {  get; set; }
     public float Throttle {  get; set; }
 

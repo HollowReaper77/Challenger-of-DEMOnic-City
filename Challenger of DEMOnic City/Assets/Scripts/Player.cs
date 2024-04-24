@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -22,6 +24,15 @@ public class Player : MonoBehaviour
     private int checkpointCount;
     private int checkpointLayer;
     private CarController carController;
+
+
+    public TextMeshProUGUI warningText;
+
+
+    [Header("Settings")]
+
+    public bool around = false;
+
 
     void Awake()
     {
