@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class Player : MonoBehaviour
 {
@@ -29,9 +30,12 @@ public class Player : MonoBehaviour
     public TextMeshProUGUI warningText;
 
 
+
     [Header("Settings")]
 
-    public bool around = false;
+    public bool around;
+    public int maxLaps;
+    private string finishCheckpoint;
 
 
     void Awake()
@@ -40,6 +44,16 @@ public class Player : MonoBehaviour
         checkpointCount = checkpointsParent.childCount;
         checkpointLayer = LayerMask.NameToLayer("Checkpoint");
         carController = GetComponent<CarController>();
+
+        if (around == true)
+        {
+            finishCheckpoint = "1";
+        }
+        else
+        {
+            finishCheckpoint = checkpointCount.ToString();
+        }
+
     }
 
     void StartLap()
@@ -57,43 +71,108 @@ public class Player : MonoBehaviour
         Debug.Log("EndLap - LapTime was "+ LastLapTime + "seconds");
 
     }
+
+    void FinishRace()
+    {
+        Debug.Log("Finish");
+    }
+
     // kivételeket megírni, hogy például és módosítani az OldCheckpointSystem alapján
+
     void OnTriggerEnter(Collider collider)
     {
+        // ha az objektum layer-je nem egyezik meg a checkpoint layer-ével
         if(collider.gameObject.layer != checkpointLayer)
         {
             return;
         }
+        // ha az objektum neve a finish checkpoint-nak értéke ami ebben az estben string
 
-        if (collider.gameObject.name == "1") //  <-   ez itt nem csak debug-hoz volt így írva?
+        // körversenyre állítására szolgál
+        // startvonalat ellenörzi
+        if (collider.gameObject.name == finishCheckpoint)
+        {
+            // ha az utolsó checkpoint egyenlõ a checkpointokkal akkor új kör
+            if (lastCheckpointPassed == checkpointCount)
+            {
+
+                EndLap();
+                /*
+                if (CurrentLap == maxLaps)
+                {
+                    FinishRace();
+                }
+                */
+            }
+            /*
+            else
+            {
+                FinishRace();
+            }
+            */
+
+            /*
+            if (CurrentLap == 0 || lastCheckpointPassed == checkpointCount)
+            {
+                StartLap();
+            }
+            */
+            // ha 
+            if (CurrentLap == 0 || lastCheckpointPassed == checkpointCount)
+            {
+                StartLap();
+            }
+            if(CurrentLap == maxLaps)
+            {
+                FinishRace();
+            }
+
+
+            return;
+        }
+
+        /*
+        // A-ból B-be versenyre állítja át
+        else if (collider.gameObject.name == finishCheckpoint)
         {
             if (lastCheckpointPassed == checkpointCount)
             {
                 EndLap();
             }
-
             if (CurrentLap == 0 || lastCheckpointPassed == checkpointCount)
             {
                 StartLap();
             }
+            if (CurrentLap == maxLaps)
+            {
+                FinishRace();
+            }
             return;
         }
-
+        */
+        // checkpoint-okat számolja, ha az aktuálistól nagyobb egyel a következõ, külömben hibás checkpoint felírat
         if (collider.gameObject.name == (lastCheckpointPassed+1).ToString())
         {
             lastCheckpointPassed++;
             Debug.Log("Checkpoint passed"+lastCheckpointPassed);
         }
+        /*
+        else
+        {
+            Debug.Log("Missing checkpoints!");
+        }
+        */
     }
     // Update is called once per frame
     void Update()
     {
         CurrentLapTime = lapTimerTimestamp > 0 ? Time.time -lapTimerTimestamp : 0;
-
+        /*
         if (controlType == ControlType.HumanInput)
         {
             carController.Steer = GameManager.Instance.InputController.SteerInput;
             carController.Throttle = GameManager.Instance.InputController.ThrottleInput;
         }
+        */
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class OldCheckpointsAndLaps : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class OldCheckpointsAndLaps : MonoBehaviour
     private bool started;
     private bool finished;
 
+    private float currentLapTime;
+    private float bestLapTime;
+    private float bestLap;
+
     private void Start()
     {
         currentCheckpoint = 0;
@@ -26,6 +31,31 @@ public class OldCheckpointsAndLaps : MonoBehaviour
 
         started = false;
         finished = false;
+
+        currentLapTime = 0;
+        bestLapTime = 0;
+        bestLap = 0;
+    }
+
+    private void Update()
+    {
+        if (started && !finished)
+        {
+            currentLapTime += Time.deltaTime;
+
+            if (bestLap == 0)
+            {
+                bestLap = 1;
+            }
+        }
+
+        if (started)
+        {
+            if (bestLap == currentLap)
+            {
+                bestLapTime = currentLapTime;
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -48,6 +78,10 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                 {
                     if (currentCheckpoint == checkpoints.Length)
                     {
+                        if (currentCheckpoint < bestLap)
+                        {
+                            bestLap = currentLap;
+                        }
                         finished = true;
                         print("Finished");
                     }
@@ -61,15 +95,22 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                 {
                     if (currentCheckpoint == checkpoints.Length)
                     {
+                        if (currentLapTime < bestLapTime)
+                        {
+                            bestLap = currentLap;
+                            bestLapTime = currentLapTime;
+                        }
                         currentLap++;
                         currentCheckpoint = 0;
-                        print($"Stared lap {currentLap}");
+                        currentLapTime = 0;
+                        Debug.Log($"Stared lap {currentLap}");
+                    }
+                    else
+                    {
+                        print("Old not go through all the checkpoints");
                     }
                 }
-                else
-                {
-                    print("Old not go through all the checkpoints");
-                }
+
             }
 
             // Loop through the checkpoints and compare and check which one the player passed through
@@ -80,7 +121,7 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                 // If the checkpoint is correct
                 if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint)
                 {
-                    print("Correct checkpoint");
+                    print($"Correct Checkpoint: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000}");
                     currentCheckpoint++;
                 }
                 // If the checkpoint is incorrect

@@ -13,9 +13,10 @@ public class CountdownTimer : MonoBehaviour
     [SerializeField] TextMeshProUGUI coundownText;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         currentTime = startingTime;
+        coundownText.enabled = true;
     }
 
     // Update is called once per frame
@@ -23,7 +24,12 @@ public class CountdownTimer : MonoBehaviour
     {
         currentTime -= 1 * Time.deltaTime;
         coundownText.text = currentTime.ToString("0");
-
+        /*
+        if (currentTime >= 0)
+        {
+            Time.timeScale = 0f;
+        }
+        */
         if (currentTime <= 1 && currentTime >= 0)
         {
             coundownText.text = "GO!";
