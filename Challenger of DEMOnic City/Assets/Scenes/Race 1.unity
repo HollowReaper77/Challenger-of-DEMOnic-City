@@ -940,7 +940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1644389885
 Transform:
   m_ObjectHideFlags: 0
@@ -1593,18 +1593,18 @@ PrefabInstance:
     - target: {fileID: 3800884454992885874, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 3967369744054395824}
+      objectReference: {fileID: 3967369744054395828}
     - target: {fileID: 3800884454992885874, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: OpenScene
       objectReference: {fileID: 0}
     - target: {fileID: 3800884454992885874, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: 
+      value: SceneManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3800884454992885874, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3801498439971824777, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_text
@@ -1613,10 +1613,14 @@ PrefabInstance:
     - target: {fileID: 4158318645152232520, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 54261462}
+      objectReference: {fileID: 54261463}
     - target: {fileID: 4158318645152232520, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158318645152232520, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4227276023260684094, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_IsActive

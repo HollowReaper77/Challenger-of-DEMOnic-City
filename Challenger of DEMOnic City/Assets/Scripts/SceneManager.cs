@@ -14,6 +14,8 @@ public class SceneManager : MonoBehaviour
         Debug.Log(raceNum);
     }
 
+    // reload scene egy loadscene-el megoldani?
+
     public void BackToMenu()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
