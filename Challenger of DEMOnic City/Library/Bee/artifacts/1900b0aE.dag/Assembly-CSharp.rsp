@@ -389,6 +389,8 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CarController.cs"
+"Assets/Scripts/Coun.cs"
+"Assets/Scripts/CountdownTimer.cs"
 "Assets/Scripts/Earlier checkpoin scripts/CheckPointsAndLaps.cs"
 "Assets/Scripts/Earlier checkpoin scripts/CheckpointSingle.cs"
 "Assets/Scripts/Earlier checkpoin scripts/CheckPointTrigger.cs"
