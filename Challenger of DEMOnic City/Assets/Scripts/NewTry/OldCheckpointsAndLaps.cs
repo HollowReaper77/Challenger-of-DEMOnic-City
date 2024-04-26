@@ -15,7 +15,7 @@ public class OldCheckpointsAndLaps : MonoBehaviour
 
     [Header("Information")]
     public float currentCheckpoint;
-    private float currentLap;
+    public float currentLap;
     private bool started;
     private bool finished;
 
@@ -58,6 +58,14 @@ public class OldCheckpointsAndLaps : MonoBehaviour
         }
     }
 
+    private void Respawn()
+    {
+        foreach (GameObject checkpoint in checkpoints)
+        {
+            checkpoint.SetActive(true);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
 
@@ -66,14 +74,13 @@ public class OldCheckpointsAndLaps : MonoBehaviour
         {
             GameObject thisCheckpoint = other.gameObject;
 
-
-
-
             // Loop through the checkpoints and compare and check which one the player passed through
             for (int i = 0; i < checkpoints.Length; i++)
             {
                 if (finished)
+                {
                     return;
+                }
                 // If the checkpoint is correct
                 if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint)
                 {
@@ -81,12 +88,51 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                     currentCheckpoint++;
                     thisCheckpoint.SetActive(false);
                 }
+
+                /*
+                if (thisCheckpoint == checkpoints[checkpoints.Length - 1] && i == currentCheckpoint)
+                {
+                    for (int j = 0; j < checkpoints.Length; j++)
+                    {
+                        thisCheckpoint.SetActive(true);
+                    }
+                }
+                */
+                /*
+                if (thisCheckpoint == checkpoints[checkpoints.Length - 1] && i == currentCheckpoint)
+                {
+                    //checkpoints[checkpoints.Length-1].SetActive(false)
+                    for (int j = 0; j < checkpoints.Length; j++)
+                    {
+                        thisCheckpoint.SetActive(false);
+                    }
+                }
+                */
                 // If the checkpoint is incorrect
                 else if (thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
                 {
                     print("Incorrect checkpoint");
                 }
+                /*
+                if (thisCheckpoint == checkpoints[checkpoints.Length - 1])
+                {
+                    for (int j = 0; j < checkpoints.Length; j++)
+                    {
+                        thisCheckpoint.SetActive(true);
+                    }
+                }
+                */
             }
+            /*
+            if (thisCheckpoint == checkpoints[checkpoints.Length - 1])
+            {
+                for (int j = 0; j < checkpoints.Length; j++)
+                {
+                    thisCheckpoint.SetActive(true);
+                }
+            }
+            */
+
 
             // Started the race
             if (thisCheckpoint == start && !started)
@@ -115,10 +161,11 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                     }
                 }
                 // If all laps are not finished, start a new lap
-                else if (currentLap < laps)
+                else if (currentLap <= laps)
                 {
-                    if (currentCheckpoint == checkpoints.Length-1)
+                    if (currentCheckpoint == checkpoints.Length)
                     {
+
                         if (currentLapTime < bestLapTime)
                         {
                             bestLap = currentLap;
@@ -128,16 +175,17 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                         currentCheckpoint = 0;
                         currentLapTime = 0;
                         Debug.Log($"Stared lap {currentLap}");
+
+                        Respawn();
+
+                        ///checkpoints[].SetActive(true); //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     }
                     else
                     {
                         print("Old not go through all the checkpoints");
                     }
                 }
-
             }
-
-
         }
     }
 }
