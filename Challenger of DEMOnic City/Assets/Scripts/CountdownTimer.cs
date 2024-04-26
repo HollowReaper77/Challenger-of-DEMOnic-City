@@ -42,35 +42,10 @@ public class CountdownTimer : MonoBehaviour
             coundownText.enabled = false;
         }
     }
-
     
-
-
-    /*
-    public int countdownTime;
-    public TextMeshProUGUI countdownDisplay;
-
-    private void Start()
+    void Awake()
     {
-        StartCoroutine(CountdownToStart());
+        DontDestroyOnLoad(this.gameObject);
     }
-
-    IEnumerator CountdownToStart()
-    {
-        while (countdownTime > 0)
-        {
-            countdownDisplay.text = countdownTime.ToString();
-
-            yield return new WaitForSeconds(1f);
-
-            countdownTime--;
-        }
-
-        countdownDisplay.text = "GO";
-
-        yield return new WaitForSeconds(1f);
-
-        countdownDisplay.gameObject.SetActive(false);
-    }
-    */
+    
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -23,6 +24,18 @@ public class OldCheckpointsAndLaps : MonoBehaviour
     private float bestLapTime;
     private float bestLap;
 
+    [Header("UIinformation")]
+
+    public TextMeshProUGUI warningText;
+
+    
+    public TextMeshProUGUI lap;
+    public TextMeshProUGUI bestlap;
+    public TextMeshProUGUI time;
+    public TextMeshProUGUI bestTime;
+    public TextMeshProUGUI progress;
+    
+
     private void Start()
     {
         currentCheckpoint = 0;
@@ -35,6 +48,8 @@ public class OldCheckpointsAndLaps : MonoBehaviour
         currentLapTime = 0;
         bestLapTime = 0;
         bestLap = 0;
+
+        warningText.text = " ";
     }
 
     private void Update()
@@ -87,56 +102,22 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                     print($"Correct Checkpoint: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000}");
                     currentCheckpoint++;
                     thisCheckpoint.SetActive(false);
+                    warningText.text = "Correct checkpoint";
                 }
 
-                /*
-                if (thisCheckpoint == checkpoints[checkpoints.Length - 1] && i == currentCheckpoint)
-                {
-                    for (int j = 0; j < checkpoints.Length; j++)
-                    {
-                        thisCheckpoint.SetActive(true);
-                    }
-                }
-                */
-                /*
-                if (thisCheckpoint == checkpoints[checkpoints.Length - 1] && i == currentCheckpoint)
-                {
-                    //checkpoints[checkpoints.Length-1].SetActive(false)
-                    for (int j = 0; j < checkpoints.Length; j++)
-                    {
-                        thisCheckpoint.SetActive(false);
-                    }
-                }
-                */
                 // If the checkpoint is incorrect
                 else if (thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
                 {
                     print("Incorrect checkpoint");
+                    warningText.text = "Wrong checkpoint";
                 }
-                /*
-                if (thisCheckpoint == checkpoints[checkpoints.Length - 1])
-                {
-                    for (int j = 0; j < checkpoints.Length; j++)
-                    {
-                        thisCheckpoint.SetActive(true);
-                    }
-                }
-                */
-            }
-            /*
-            if (thisCheckpoint == checkpoints[checkpoints.Length - 1])
-            {
-                for (int j = 0; j < checkpoints.Length; j++)
-                {
-                    thisCheckpoint.SetActive(true);
-                }
-            }
-            */
 
+            }
 
             // Started the race
             if (thisCheckpoint == start && !started)
             {
+                warningText.text = "Start!";
                 print("Started");
                 started = true;
             }
@@ -154,10 +135,12 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                         }
                         finished = true;
                         print("Finished");
+                        warningText.text = "Finished!";
                     }
                     else
                     {
                         print("Did not go through all checkpoints");
+                        warningText.text = "Missing checkpoints";
                     }
                 }
                 // If all laps are not finished, start a new lap
@@ -177,12 +160,11 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                         Debug.Log($"Stared lap {currentLap}");
 
                         Respawn();
-
-                        ///checkpoints[].SetActive(true); //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     }
                     else
                     {
                         print("Old not go through all the checkpoints");
+                        warningText.text = "Missing checkpoints";
                     }
                 }
             }

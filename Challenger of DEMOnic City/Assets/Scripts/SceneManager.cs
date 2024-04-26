@@ -10,15 +10,17 @@ public class SceneManager : MonoBehaviour
 
     public void OpenScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Race "+ raceNum.ToString());
-        Debug.Log(raceNum);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Race "+ raceNum);
+        Debug.Log("Race "+ raceNum);
     }
+
 
     // reload scene egy loadscene-el megoldani?
 
     public void BackToMenu()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        Debug.Log("BackToMenu");
     }
 
     public void QuitGame()
