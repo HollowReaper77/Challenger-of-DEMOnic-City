@@ -14,7 +14,7 @@ public class OldCheckpointsAndLaps : MonoBehaviour
     public float laps = 1;
 
     [Header("Information")]
-    private float currentCheckpoint;
+    public float currentCheckpoint;
     private float currentLap;
     private bool started;
     private bool finished;
@@ -60,10 +60,34 @@ public class OldCheckpointsAndLaps : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
+
         if (other.CompareTag("Checkpoint"))
         {
             GameObject thisCheckpoint = other.gameObject;
-            
+
+
+
+
+            // Loop through the checkpoints and compare and check which one the player passed through
+            for (int i = 0; i < checkpoints.Length; i++)
+            {
+                if (finished)
+                    return;
+                // If the checkpoint is correct
+                if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint)
+                {
+                    print($"Correct Checkpoint: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000}");
+                    currentCheckpoint++;
+                    thisCheckpoint.SetActive(false);
+                }
+                // If the checkpoint is incorrect
+                else if (thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
+                {
+                    print("Incorrect checkpoint");
+                }
+            }
+
             // Started the race
             if (thisCheckpoint == start && !started)
             {
@@ -93,7 +117,7 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                 // If all laps are not finished, start a new lap
                 else if (currentLap < laps)
                 {
-                    if (currentCheckpoint == checkpoints.Length)
+                    if (currentCheckpoint == checkpoints.Length-1)
                     {
                         if (currentLapTime < bestLapTime)
                         {
@@ -113,23 +137,7 @@ public class OldCheckpointsAndLaps : MonoBehaviour
 
             }
 
-            // Loop through the checkpoints and compare and check which one the player passed through
-            for (int i = 0; i < checkpoints.Length; i++)
-            {
-                if (finished)
-                    return;
-                // If the checkpoint is correct
-                if (thisCheckpoint == checkpoints[i] && i == currentCheckpoint)
-                {
-                    print($"Correct Checkpoint: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000}");
-                    currentCheckpoint++;
-                }
-                // If the checkpoint is incorrect
-                else if(thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
-                {
-                    print("Incorrect checkpoint");
-                }
-            }
+
         }
     }
 }

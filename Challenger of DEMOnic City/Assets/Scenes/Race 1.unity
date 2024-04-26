@@ -383,7 +383,7 @@ PrefabInstance:
       addedObject: {fileID: 893771933}
     - targetCorrespondingSourceObject: {fileID: 8215111646708889477, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1835371950}
+      addedObject: {fileID: 1835371956}
   m_SourcePrefab: {fileID: 100100000, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
 --- !u!1001 &545100667
 PrefabInstance:
@@ -492,6 +492,7 @@ MonoBehaviour:
   - {fileID: 1424253334}
   - {fileID: 852926553}
   laps: 1
+  currentCheckpoint: 0
 --- !u!1 &591967126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,12 +1450,13 @@ MonoBehaviour:
   - {fileID: 1424253334}
   - {fileID: 852926553}
   laps: 1
+  currentCheckpoint: 0
 --- !u!1 &1835371936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8215111646708889477, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
   m_PrefabInstance: {fileID: 416875055}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1835371950
+--- !u!114 &1835371956
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1463,13 +1465,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1835371936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 506d88943d16f4d4c9f579cb6f57f968, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c77cdd5b2eabd443a2faee23bf28126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlType: 0
-  warningText: {fileID: 0}
-  around: 0
-  maxLaps: 1
+  start: {fileID: 1838926369}
+  end: {fileID: 1211859294}
+  checkpoints:
+  - {fileID: 1838926369}
+  - {fileID: 2034144553}
+  - {fileID: 1424253334}
+  - {fileID: 852926553}
+  - {fileID: 1211859294}
+  laps: 1
+  currentCheckpoint: 0
 --- !u!1 &1838926369
 GameObject:
   m_ObjectHideFlags: 0
