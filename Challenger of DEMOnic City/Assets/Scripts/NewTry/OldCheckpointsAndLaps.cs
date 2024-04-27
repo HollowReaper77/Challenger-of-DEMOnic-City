@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -24,18 +23,6 @@ public class OldCheckpointsAndLaps : MonoBehaviour
     private float bestLapTime;
     private float bestLap;
 
-    [Header("UIinformation")]
-
-    public TextMeshProUGUI warningText;
-
-    
-    public TextMeshProUGUI lap;
-    public TextMeshProUGUI bestlap;
-    public TextMeshProUGUI time;
-    public TextMeshProUGUI bestTime;
-    public TextMeshProUGUI progress;
-    
-
     private void Start()
     {
         currentCheckpoint = 0;
@@ -48,8 +35,6 @@ public class OldCheckpointsAndLaps : MonoBehaviour
         currentLapTime = 0;
         bestLapTime = 0;
         bestLap = 0;
-
-        warningText.text = " ";
     }
 
     private void Update()
@@ -102,22 +87,20 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                     print($"Correct Checkpoint: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000}");
                     currentCheckpoint++;
                     thisCheckpoint.SetActive(false);
-                    warningText.text = "Correct checkpoint";
                 }
 
                 // If the checkpoint is incorrect
                 else if (thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
                 {
                     print("Incorrect checkpoint");
-                    warningText.text = "Wrong checkpoint";
                 }
-
             }
+
+
 
             // Started the race
             if (thisCheckpoint == start && !started)
             {
-                warningText.text = "Start!";
                 print("Started");
                 started = true;
             }
@@ -135,12 +118,10 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                         }
                         finished = true;
                         print("Finished");
-                        warningText.text = "Finished!";
                     }
                     else
                     {
                         print("Did not go through all checkpoints");
-                        warningText.text = "Missing checkpoints";
                     }
                 }
                 // If all laps are not finished, start a new lap
@@ -160,11 +141,12 @@ public class OldCheckpointsAndLaps : MonoBehaviour
                         Debug.Log($"Stared lap {currentLap}");
 
                         Respawn();
+
+
                     }
                     else
                     {
                         print("Old not go through all the checkpoints");
-                        warningText.text = "Missing checkpoints";
                     }
                 }
             }

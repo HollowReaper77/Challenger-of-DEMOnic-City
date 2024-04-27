@@ -978,17 +978,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424253334}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1588298003 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9088710051454544444, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
-  m_PrefabInstance: {fileID: 3967369744054395821}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1608509514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,15 +1121,9 @@ MonoBehaviour:
   - {fileID: 1424253334}
   - {fileID: 852926553}
   - {fileID: 1211859294}
-  laps: 1
+  laps: 3
   currentCheckpoint: 0
   currentLap: 0
-  warningText: {fileID: 1588298003}
-  lap: {fileID: 297368520}
-  bestlap: {fileID: 1634052251}
-  time: {fileID: 1622308492}
-  bestTime: {fileID: 0}
-  progress: {fileID: 0}
 --- !u!1 &1838926369
 GameObject:
   m_ObjectHideFlags: 0
