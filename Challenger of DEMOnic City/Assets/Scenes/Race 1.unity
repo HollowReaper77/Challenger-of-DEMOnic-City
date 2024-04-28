@@ -2400,6 +2400,10 @@ PrefabInstance:
       value: CountDown
       objectReference: {fileID: 0}
     - target: {fileID: 9042490539937529546, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_text
+      value: Resume MENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 9042490539937529546, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_margin.z
       value: -50.908134
       objectReference: {fileID: 0}
@@ -2417,6 +2421,7 @@ PrefabInstance:
     - {fileID: 9090153679020083485, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
     m_RemovedGameObjects:
     - {fileID: 905001647301981270, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+    - {fileID: 8514812051666844762, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1964563809189605283, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       insertIndex: -1
