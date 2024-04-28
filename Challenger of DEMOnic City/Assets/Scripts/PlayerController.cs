@@ -12,9 +12,35 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float forwardInput;
 
+    public bool moveable;
+
+
+    public bool Moveable()
+    {
+        if (Time.deltaTime >= 5)
+        {
+            moveable = true;
+            playerSpeed = 50f;
+        }
+        else if (Time.deltaTime <= 5)
+        {
+            moveable = false;
+            playerSpeed = 0f;
+        }
+
+        return moveable;
+    }
+
     // Update is called once per frame
     void Update()
     {
+        /*
+        Moveable();
+        if (moveable)
+        {
+
+        }
+        */
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
 

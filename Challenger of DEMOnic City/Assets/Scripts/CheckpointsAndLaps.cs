@@ -9,7 +9,7 @@ using UnityEngine.Rendering;
 public class CheckpointsAndLaps : MonoBehaviour
 {
     [Header("UI Elements")]
-    public GameObject finishMenu;
+    public GameObject finishMenuUI;
 
     [Header("Checkpoints")]
     public GameObject start;
@@ -18,13 +18,15 @@ public class CheckpointsAndLaps : MonoBehaviour
 
     [Header("Settings")]
     public float laps = 1;
-    public string warning;
+    private string warning;
 
     [Header("Information")]
     public float currentCheckpoint;
     public float currentLap;
     private bool started;
     private bool finished;
+
+    private float racetime;
 
     private float currentLapTime;
     private float bestLapTime;
@@ -39,17 +41,13 @@ public class CheckpointsAndLaps : MonoBehaviour
     public TextMeshProUGUI bestlapText;
     public TextMeshProUGUI bestTimeText;
 
-    private string convertedbestLap;
 
     private void Start()
     {
-        if (Time.deltaTime >= 5)
-        {
-
-        }
         currentCheckpoint = 0;
         currentLap = 1;
 
+        racetime = 0;
 
         started = false;
         finished = false;
@@ -59,10 +57,12 @@ public class CheckpointsAndLaps : MonoBehaviour
         bestLap = 0;
     }
 
-    private void Update()
+    public void Update()
     {
+        // ide kell tenni az összes UI-t
         if (started && !finished)
         {
+            racetime += Time.deltaTime; 
             currentLapTime += Time.deltaTime;
             //timeText.text = currentLapTime.ToString();
             timeText.text = $"Time: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00:000}";
@@ -70,11 +70,7 @@ public class CheckpointsAndLaps : MonoBehaviour
             if (bestLap == 0)
             {
                 bestLap = 1;
-                //Convert.ToString(bestLap) = bestlapText.text;
-                /*
-                convertedbestLap = bestLap.ToString();
-                bestlapText.text = convertedbestLap;
-                */
+
             }
 
         }
@@ -84,13 +80,35 @@ public class CheckpointsAndLaps : MonoBehaviour
             if (bestLap == currentLap)
             {
                 bestLapTime = currentLapTime;
+                //bestTimeText.text = "Best: "+ bestLapTime.ToSafeString();
             }
         }
+        if (bestLapTime <= currentLapTime)
+        {
+            bestTimeText.text = $"Latest best time: \n" + timeText.text;
+        }
+        /*
+        if (currentLapTime < bestLapTime)
+        {
+            bestLap = currentLap;
 
+
+            Debug.Log("BestLap:" + bestLap);
+            bestlapText.text = "Best: " + bestLap; // vagy ide?
+            bestLapTime = currentLapTime;
+            Debug.Log("BestTime" + bestLapTime);
+            bestTimeText.text = "Best Time:" + bestLapTime;
+        }
+        */
+        if (finished)
+        {
+            //finishMenuUI.SetActive(true);
+            ShowFinishMenu();
+
+        }
 
         ShowWarningMessage(warning);
 
-        //lapText =
     }
 
     private void Respawn()
@@ -101,13 +119,18 @@ public class CheckpointsAndLaps : MonoBehaviour
         }
     }
     /*
-    private void ShowFinishMenu() // bool mutasd
+    private void ShowFinishMenu(bool mutasd) // bool mutasd
     {
-        finishMenu.SetActive(true);
+        finishMenuUI.SetActive(mutasd);
     }
     */
 
-    private string ShowWarningMessage(string warning)
+    public void ShowFinishMenu()
+    {
+        finishMenuUI.SetActive(true);
+    }
+
+    public string ShowWarningMessage(string warning)
     {
         if (Time.deltaTime <= 3f)
         {
@@ -120,20 +143,22 @@ public class CheckpointsAndLaps : MonoBehaviour
         return warningText.text;
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
 
 
         if (other.CompareTag("Checkpoint"))
         {
             GameObject thisCheckpoint = other.gameObject;
+            GameObject finishMenu = finishMenuUI.gameObject;
 
             // Loop through the checkpoints and compare and check which one the player passed through
             for (int i = 0; i < checkpoints.Length; i++)
             {
                 if (finished)
                 {
-                    //ShowFinishMenu();
+                    //ShowFinishMenu(true);
+                    finishMenu.SetActive(true);
                     return;
                 }
                 // If the checkpoint is correct
@@ -141,6 +166,7 @@ public class CheckpointsAndLaps : MonoBehaviour
                 {
                     print($"Correct Checkpoint: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000}");
                     currentCheckpoint++;
+                    ShowWarningMessage("Correct Checkpoint");
                     thisCheckpoint.SetActive(false);
                 }
 
@@ -151,8 +177,6 @@ public class CheckpointsAndLaps : MonoBehaviour
                     ShowWarningMessage("Incorrect checkpoint");
                 }
             }
-
-
 
             // Started the race
             if (thisCheckpoint == start && !started)
@@ -175,13 +199,14 @@ public class CheckpointsAndLaps : MonoBehaviour
                             bestlapText.text = "Best: "+bestLap; // ez tényleg ide kéne?
                         }
                         finished = true;
+                        ShowWarningMessage("végeeeee");
                         print("Finished");
                         ShowWarningMessage("végeeeee");
                     }
                     else
                     {
                         print("Did not go through all checkpoints");
-                        warningText.text = "Did not go through all checkpoints";
+                        ShowWarningMessage("Did not go through all checkpoints");
                     }
                 }
                 // If all laps are not finished, start a new lap
@@ -197,14 +222,15 @@ public class CheckpointsAndLaps : MonoBehaviour
                             bestlapText.text = "Best: " + bestLap; // vagy ide?
                             bestLapTime = currentLapTime;
                             Debug.Log("BestTime"+bestLapTime);
-                            bestTimeText.text = "Best Time:"+bestLapTime; 
+                            bestTimeText.text = "Best Time:"+bestLapTime;
+                            ShowWarningMessage("beeeszt");
                         }
                         currentLap++;
                         lapText.text = "Lap: "+currentLap;
                         currentCheckpoint = 0;
                         currentLapTime = 0;
                         Debug.Log($"Stared lap {currentLap}");
-
+                        ShowWarningMessage("beeeszt");
                         Respawn();
 
 

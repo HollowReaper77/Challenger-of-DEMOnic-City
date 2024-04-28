@@ -10,6 +10,7 @@ public class SceneManager : MonoBehaviour
 
     public void OpenScene()
     {
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("TempScene");
         UnityEngine.SceneManagement.SceneManager.LoadScene("Race "+ raceNum);
         Debug.Log("Race "+ raceNum);
     }
@@ -22,7 +23,12 @@ public class SceneManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
         Debug.Log("BackToMenu");
     }
-
+    /*
+    public void ReloadScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+    }
+    */
     public void QuitGame()
     {
         Debug.Log("QUIT!");
