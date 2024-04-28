@@ -344,7 +344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6643618035744421656, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1410
+      value: 1448.25
       objectReference: {fileID: 0}
     - target: {fileID: 6643618035744421656, guid: a4d2b900f30b61c4d85a3f86dd527292, type: 3}
       propertyPath: m_LocalRotation.w
@@ -871,6 +871,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coundownText: {fileID: 1026843363}
+--- !u!114 &1386327976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9088710051454544444, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+  m_PrefabInstance: {fileID: 3967369744054395821}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1424253334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1135,11 @@ MonoBehaviour:
   laps: 3
   currentCheckpoint: 0
   currentLap: 0
+  warningText: {fileID: 1386327976}
+  lapText: {fileID: 297368520}
+  timeText: {fileID: 1622308492}
+  bestlapText: {fileID: 0}
+  bestTimeText: {fileID: 1634052251}
 --- !u!1 &1838926369
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,9 +1524,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 982199040561840204, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: raceNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2202726995305368861, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_Name
+      value: TextLap
+      objectReference: {fileID: 0}
     - target: {fileID: 2202726995305368861, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385148693844033135, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_Name
+      value: TextTime
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397889156165976021, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_Name
+      value: TextBest
       objectReference: {fileID: 0}
     - target: {fileID: 3800884454992885874, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1708,6 +1740,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5132056349730894115, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132056349730894115, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5546180772091201342, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_IgnoreReversedGraphics
       value: 0
@@ -1715,6 +1755,10 @@ PrefabInstance:
     - target: {fileID: 6870387572893789361, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349486464387965811, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
+      propertyPath: m_Name
+      value: TextLast
       objectReference: {fileID: 0}
     - target: {fileID: 8844888773937672255, guid: f09d6ac369fcc494d8d2e7cfddcb9189, type: 3}
       propertyPath: m_TagString

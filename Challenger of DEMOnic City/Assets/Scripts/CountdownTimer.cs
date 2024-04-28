@@ -42,10 +42,10 @@ public class CountdownTimer : MonoBehaviour
             coundownText.enabled = false;
         }
     }
-    
+    /*
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
     }
-    
+    */
 }

@@ -7,14 +7,6 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
-    /*
-    CountdownTimer countdown;
-
-    private void Awake()
-    {
-        countdown = GameObject.FindGameObjectWithTag("CountDown").GetComponent<CountdownTimer>();
-    }
-    */
 
     // Update is called once per frame
     void Update()
