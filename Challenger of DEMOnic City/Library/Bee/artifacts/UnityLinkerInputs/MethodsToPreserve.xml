@@ -1,13 +1,21 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
-		<type fullname="GameManager">
+		<type fullname="KeyBindigScript">
+			<method name="ChangeKey"/>
+			<method name="ChangeKey"/>
+			<method name="ChangeKey"/>
+			<method name="ChangeKey"/>
+			<method name="SaveKeys"/>
+		</type>
+		<type fullname="SceneManager">
 			<method name="BackToMenu"/>
 			<method name="BackToMenu"/>
+			<method name="BackToMenu"/>
 			<method name="OpenScene"/>
 			<method name="OpenScene"/>
 			<method name="OpenScene"/>
-			<method name="QuitGame"/>
-			<method name="QuitGame"/>
+			<method name="OpenScene"/>
+			<method name="OpenScene"/>
 			<method name="QuitGame"/>
 			<method name="QuitGame"/>
 		</type>
@@ -41,6 +49,35 @@
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+		<type fullname="UnityEngine.Object">
+			<method name="set_name"/>
+			<method name="set_name"/>
+			<method name="set_name"/>
 		</type>
 	</assembly>
 </linker>
