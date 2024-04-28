@@ -2,11 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 public class CheckpointsAndLaps : MonoBehaviour
 {
+    [Header("UI Elements")]
+    public GameObject finishMenu;
+
     [Header("Checkpoints")]
     public GameObject start;
     public GameObject end;
@@ -14,6 +18,7 @@ public class CheckpointsAndLaps : MonoBehaviour
 
     [Header("Settings")]
     public float laps = 1;
+    public string warning;
 
     [Header("Information")]
     public float currentCheckpoint;
@@ -83,6 +88,7 @@ public class CheckpointsAndLaps : MonoBehaviour
         }
 
 
+        ShowWarningMessage(warning);
 
         //lapText =
     }
@@ -93,6 +99,25 @@ public class CheckpointsAndLaps : MonoBehaviour
         {
             checkpoint.SetActive(true);
         }
+    }
+    /*
+    private void ShowFinishMenu() // bool mutasd
+    {
+        finishMenu.SetActive(true);
+    }
+    */
+
+    private string ShowWarningMessage(string warning)
+    {
+        if (Time.deltaTime <= 3f)
+        {
+            warningText.text = warning;
+        }
+        else if(Time.deltaTime >= 3f)
+        {
+            warningText.text = " ";
+        }
+        return warningText.text;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -108,6 +133,7 @@ public class CheckpointsAndLaps : MonoBehaviour
             {
                 if (finished)
                 {
+                    //ShowFinishMenu();
                     return;
                 }
                 // If the checkpoint is correct
@@ -122,6 +148,7 @@ public class CheckpointsAndLaps : MonoBehaviour
                 else if (thisCheckpoint == checkpoints[i] && i != currentCheckpoint)
                 {
                     print("Incorrect checkpoint");
+                    ShowWarningMessage("Incorrect checkpoint");
                 }
             }
 
@@ -132,6 +159,7 @@ public class CheckpointsAndLaps : MonoBehaviour
             {
                 print("Started");
                 started = true;
+
             }
             // Ended the lap or race
             else if (thisCheckpoint == end && started)
@@ -148,14 +176,16 @@ public class CheckpointsAndLaps : MonoBehaviour
                         }
                         finished = true;
                         print("Finished");
+                        ShowWarningMessage("végeeeee");
                     }
                     else
                     {
                         print("Did not go through all checkpoints");
+                        warningText.text = "Did not go through all checkpoints";
                     }
                 }
                 // If all laps are not finished, start a new lap
-                else if (currentLap <= laps)
+                else if (currentLap < laps)
                 {
                     if (currentCheckpoint == checkpoints.Length)
                     {
@@ -163,8 +193,10 @@ public class CheckpointsAndLaps : MonoBehaviour
                         if (currentLapTime < bestLapTime)
                         {
                             bestLap = currentLap;
+                            Debug.Log("BestLap:"+bestLap);
                             bestlapText.text = "Best: " + bestLap; // vagy ide?
                             bestLapTime = currentLapTime;
+                            Debug.Log("BestTime"+bestLapTime);
                             bestTimeText.text = "Best Time:"+bestLapTime; 
                         }
                         currentLap++;
@@ -180,7 +212,7 @@ public class CheckpointsAndLaps : MonoBehaviour
                     else
                     {
                         print("Wrong checkpoint!");
-                        warningText.text = "Wrong checkpoint!";
+                        ShowWarningMessage("Wrong checkpoint!");
                     }
                 }
             }
