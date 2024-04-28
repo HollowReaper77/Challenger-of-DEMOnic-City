@@ -8,13 +8,13 @@ using UnityEngine.Rendering;
 
 public class CheckpointsAndLaps : MonoBehaviour
 {
-    [Header("UI Elements")]
+    [Header("Checkpoints")]
     public GameObject finishMenuUI;
 
-    [Header("Checkpoints")]
     public GameObject start;
     public GameObject end;
     public GameObject[] checkpoints;
+
 
     [Header("Settings")]
     public float laps = 1;
@@ -26,9 +26,11 @@ public class CheckpointsAndLaps : MonoBehaviour
     private bool started;
     private bool finished;
 
-    private float racetime;
+    public float racetime;
+    //private float temp = 0;
 
     private float currentLapTime;
+    private float lastLapTime;
     private float bestLapTime;
     private float bestLap;
 
@@ -36,10 +38,11 @@ public class CheckpointsAndLaps : MonoBehaviour
     public TextMeshProUGUI warningText;
 
     
-    public TextMeshProUGUI lapText;
-    public TextMeshProUGUI timeText;
-    public TextMeshProUGUI bestlapText;
-    public TextMeshProUGUI bestTimeText;
+    public TextMeshProUGUI lapText; // current Time
+    public TextMeshProUGUI timeText; // Last laptime text
+    public TextMeshProUGUI bestlapText; // best lap text
+    public TextMeshProUGUI bestTimeText; // best laptimetext
+    public TextMeshProUGUI TotalTimeText; // total time
 
 
     private void Start()
@@ -59,6 +62,8 @@ public class CheckpointsAndLaps : MonoBehaviour
 
     public void Update()
     {
+        //temp += Time.time;
+        //racetime.text = $"{Mathf.FloorToInt(temp / 60)}:{temp % 60:00:000}";
         // ide kell tenni az összes UI-t
         if (started && !finished)
         {
@@ -66,6 +71,7 @@ public class CheckpointsAndLaps : MonoBehaviour
             currentLapTime += Time.deltaTime;
             //timeText.text = currentLapTime.ToString();
             timeText.text = $"Time: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00:000}";
+            TotalTimeText.text = $"Time: {Mathf.FloorToInt(racetime / 60)}:{racetime % 60:00:000}";
 
             if (bestLap == 0)
             {
