@@ -11,6 +11,7 @@ public class Registration : MonoBehaviour
     public TextMeshProUGUI firstname;
     public TextMeshProUGUI lastname;
     public TextMeshProUGUI username;
+    public TextMeshProUGUI email;
     public TextMeshProUGUI password;
     public TextMeshProUGUI confirmpassword;
 
@@ -31,6 +32,7 @@ public class Registration : MonoBehaviour
 
     public void registration()
     {
+        /*
         firstname.text = firstnameValue;
         lastname.text =lastnameValue;
         username.text = usernameValue;
@@ -42,7 +44,7 @@ public class Registration : MonoBehaviour
 
             if (password == confirmpassword && (password.text.Length >= 8))
             {
-                query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{password}';)";
+                query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email}', '{password}';)";
                 MS_Command = new MySqlCommand(query, MS_Connection);
 
                 MS_Command.ExecuteNonQuery();
@@ -66,12 +68,20 @@ public class Registration : MonoBehaviour
             MS_Connection.Close();
 
         }
+        */
+        connection();
+        query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `email`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email.text}', '{password.text}');";
+        MS_Command = new MySqlCommand(query, MS_Connection);
+
+        MS_Command.ExecuteNonQuery();
+
+        MS_Connection.Close();
     }
 
 
     public void connection()
     {
-        connectionString = "Server = localhost; Database = challengerofdemoniccity; User = root; port=3306; Password = ;";
+        connectionString = "Server = localhost; Database = challengerofdemoniccity; User = root; Password = ;";
 
         MS_Connection = new MySqlConnection(connectionString);
 
