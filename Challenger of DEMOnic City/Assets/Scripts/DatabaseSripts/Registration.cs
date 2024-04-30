@@ -14,14 +14,14 @@ public class Registration : MonoBehaviour
     public TextMeshProUGUI email;
     public TextMeshProUGUI password;
     public TextMeshProUGUI confirmpassword;
-
+    /*
     [Header("InputValues")]
     public string firstnameValue;
     public string lastnameValue;
     public string usernameValue;
     public string passwordValue;
     public string confirmpasswordValue;
-
+    */
     [Header("UI")]
     public TextMeshProUGUI errorMessage;
     private string connectionString;
@@ -29,7 +29,9 @@ public class Registration : MonoBehaviour
     private MySqlCommand MS_Command;
     string query;
 
+    string errortext = "";
 
+    // inserting the data
     public void registration()
     {
         /*
@@ -38,37 +40,60 @@ public class Registration : MonoBehaviour
         username.text = usernameValue;
         password.text = passwordValue;
         confirmpassword.text = confirmpasswordValue;
+        */
         connection();
         try
         {
-
-            if (password == confirmpassword && (password.text.Length >= 8))
+            // ha megfelel teljesen
+            if (password.text == confirmpassword.text && (password.text.Length >= 8) && (firstname.text != null && lastname.text != null && username.text != null && email.text != null && password.text != null && password.text != null))
             {
-                query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email}', '{password}';)";
+                query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `email`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email.text}', '{password.text}');";
                 MS_Command = new MySqlCommand(query, MS_Connection);
 
                 MS_Command.ExecuteNonQuery();
+                Debug.Log("Added");
+            }
+            else if (firstname.text == null && lastname.text == null && username.text == null && email.text == null && password.text == null && password.text == null)
+            {
+                errortext = "Nem adtál meg minden adatot";
+            }
+            else if (password != confirmpassword)
+            {
+                errortext = "A megadott jelszavak nem egyeznek meg";
+            }else if(password.text.Length !>= 8)
+            {
+                errortext = "Nem megfelelõ a jelszó hossza!";
+            }
+            else
+            {
+                errortext = "Hibás adatok";
             }
 
+
         }
-        catch (System.Exception)
+        catch (System.Exception) // nem lgol hibát itt
         {
 
-            errorMessage.text = "Nem megfelelõ regisztációs adatok";
+            Debug.Log("hiba");
+            //errorMessage.text = "Nem megfelelõ regisztációs adatok";
+            errorMessage.text = errortext;
             //throw;
         }
         finally
         {
-            Debug.Log("Added");
+            //valamiért ezzel nem állítja üresre a mezõket
+            /*
             firstname.text = " ";
             lastname.text = " ";
             username.text = " ";
             password.text = " ";
             confirmpassword.text = "  ";
+            */
             MS_Connection.Close();
 
         }
-        */
+        /*
+
         connection();
         query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `email`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email.text}', '{password.text}');";
         MS_Command = new MySqlCommand(query, MS_Connection);
@@ -76,6 +101,7 @@ public class Registration : MonoBehaviour
         MS_Command.ExecuteNonQuery();
 
         MS_Connection.Close();
+        */
     }
 
 
