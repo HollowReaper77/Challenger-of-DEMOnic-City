@@ -30,7 +30,7 @@ public class CameraFollow : MonoBehaviour
         targetPos = carTarget.TransformPoint(moveOffset);
 
 
-        transform.position = Vector3.Lerp(transform.position, targetPos, moveSmoothness * Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, targetPos, moveSmoothness * (Time.deltaTime*4));
     }
 
     void HandleRotation()
