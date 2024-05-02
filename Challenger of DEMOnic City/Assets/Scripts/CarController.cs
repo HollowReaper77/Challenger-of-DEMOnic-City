@@ -38,19 +38,19 @@ public class CarController : MonoBehaviour
     void Start()
     {
         carRb = GetComponent<Rigidbody>();
-        carRb.centerOfMass = _centerOfMass;
+        //carRb.centerOfMass = _centerOfMass;
     }
 
     void Update()
     {
         GetInputs();
-        Animatewheels();
+        //Animatewheels();
     }
 
     void LateUpdate()
     {
         Move();
-        Steer();
+        //Steer();
         Brake();
     }
 
@@ -98,7 +98,7 @@ public class CarController : MonoBehaviour
             }
         }
     }
-
+/*
     void Animatewheels()
     {
         foreach (var wheel in wheels)
@@ -111,4 +111,5 @@ public class CarController : MonoBehaviour
             wheel.wheelCollider.transform.rotation = rot;
         }
     }
+*/
 }
