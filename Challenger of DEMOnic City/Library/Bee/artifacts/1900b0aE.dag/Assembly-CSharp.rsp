@@ -399,6 +399,8 @@
 "Assets/Scripts/DatabaseSripts/Write.cs"
 "Assets/Scripts/DontDestroy.cs"
 "Assets/Scripts/KeyBindigScript.cs"
+"Assets/Scripts/OLDCameraFollow.cs"
+"Assets/Scripts/OLDCarController.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerController.cs"

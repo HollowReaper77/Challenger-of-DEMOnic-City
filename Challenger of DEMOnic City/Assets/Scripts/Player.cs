@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     private Transform checkpointsParent;
     private int checkpointCount;
     private int checkpointLayer;
-    private CarController carController;
+    private OLDCarController carController;
 
 
     public TextMeshProUGUI warningText;
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
         checkpointsParent = GameObject.Find("Checkpoints").transform;
         checkpointCount = checkpointsParent.childCount;
         checkpointLayer = LayerMask.NameToLayer("Checkpoint");
-        carController = GetComponent<CarController>();
+        carController = GetComponent<OLDCarController>();
 
         if (around == true)
         {

@@ -4,27 +4,42 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform Target;
+    public float moveSmoothness;
+    public float rotSmoothness;
 
-    public Vector3 offset;
+    public Vector3 moveOffset;
+    public Vector3 rotOffset;
 
-    public Vector3 eulerRotation;
-    public float damper;
+    public Transform carTarget;
 
-    // Start is called before the first frame update
-    void Start()
+    private void FixedUpdate()
     {
-        transform.eulerAngles = eulerRotation;
+        FollowTarget();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FollowTarget()
     {
-        if (Target == null)
-        //{
-            return;
+        HandleMovement();
+        HandleRotation();
+    }
 
-        transform.position = Vector3.Lerp(transform.position, Target.position + offset, damper * Time.deltaTime);
-        //}
+    void HandleMovement()
+    {
+        Vector3 targetPos = new Vector3();
+
+        targetPos = carTarget.TransformPoint(moveOffset);
+
+
+        transform.position = Vector3.Lerp(transform.position, targetPos, moveSmoothness * Time.deltaTime);
+    }
+
+    void HandleRotation()
+    {
+        var direction = carTarget.position - transform.position;
+        var rotation = new Quaternion();
+
+        rotation = Quaternion.LookRotation(direction + rotOffset, Vector3.up);
+
+        transform.rotation = Quaternion.Lerp(transform.rotation, rotation, rotSmoothness * Time.deltaTime);
     }
 }
