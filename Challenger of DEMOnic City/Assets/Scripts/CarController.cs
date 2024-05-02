@@ -19,7 +19,7 @@ public class CarController : MonoBehaviour
 
     }
 
-    public float maxAcceleration = 30.0f;
+    public float maxAcceleration = 10.0f;
     public float brakeAcceleration = 50.0f;
 
     public float turnSensitivity = 1.0f;
@@ -38,7 +38,7 @@ public class CarController : MonoBehaviour
     void Start()
     {
         carRb = GetComponent<Rigidbody>();
-        //carRb.centerOfMass = _centerOfMass;
+        carRb.centerOfMass = _centerOfMass;
     }
 
     void Update()
@@ -50,7 +50,7 @@ public class CarController : MonoBehaviour
     void LateUpdate()
     {
         Move();
-        //Steer();
+        Steer();
         Brake();
     }
 
