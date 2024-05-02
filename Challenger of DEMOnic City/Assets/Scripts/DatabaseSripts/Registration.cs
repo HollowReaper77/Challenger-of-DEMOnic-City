@@ -33,14 +33,14 @@ public class Registration : MonoBehaviour
 
     string usernameCheck;
 
+
+    // ellenözés,hogy a felhasználónévmár fogalt-e
     public void userCheck()
     {
         connection();
-        //username.text = usernameCheck;
+
         try
         {
-            // SELECT COUNT(`username`) FROM `users` WHERE 1;
-            //SELECT COUNT(`username`) FROM `users` WHERE `username` = 'sdfg';
             
             query = $"SELECT COUNT(*) FROM `users` WHERE `username` = '{username.text}';";
 
@@ -52,7 +52,7 @@ public class Registration : MonoBehaviour
                 //usernameCheck = MS_Reader[0].ToString();
                 usernameCheck = MS_Reader[0].ToString();
 
-                Debug.Log(usernameCheck);
+                //Debug.Log(usernameCheck);
             }
             Debug.Log(usernameCheck);
             if (Convert.ToInt32(usernameCheck) == 0)
@@ -65,50 +65,14 @@ public class Registration : MonoBehaviour
             }
 
 
-
-
-
-
-            /*
-            if (usernameCheck.ToI = 1)
-            {
-                registration();
-
-            }
-            else
-            {
-                Debug.Log("Szerepel már benne");
-            }
-            */
-            /*
-            Debug.Log(query);
-            int count = Convert.ToInt32(query);
-            if (count >= 1)
-            {
-                errortext = "This username is already taken.";
-                Debug.Log(errortext);
-            }
-            */
-
-            /*
-            if (username.text != null)
-            {
-                errorMessage.text = "This username is already taken.";
-            }
-            */
-            //MS_Connection = new MySqlConnection(connectionString);
-            //MS_Connection.Open();
-            //
-
         }
         catch (System.Exception)
         {
-            //errorMessage.text = errortext;
-            //throw;
+            errorMessage.text = errortext;
+            throw;
         }
         finally
         {
-            //registration();
             MS_Connection.Close();
         }
     }
@@ -116,18 +80,11 @@ public class Registration : MonoBehaviour
     // inserting the data
     public void registration()
     {
-        /*
-        firstname.text = firstnameValue;
-        lastname.text =lastnameValue;
-        username.text = usernameValue;
-        password.text = passwordValue;
-        confirmpassword.text = confirmpasswordValue;
-        */
         connection();
         try
         {
             // ha megfelel teljesen
-            if (password.text == confirmpassword.text && (password.text.Length >= 8) && (firstname.text != null && lastname.text != null && username.text != null && email.text != null && password.text != null && password.text != null))
+            if (password.text == confirmpassword.text && (password.text.Length >= 8) && (firstname.text != null && lastname.text != null && username.text != null && email.text != null && password.text != null && password.text != null) && Convert.ToInt32(usernameCheck) == 0)
             {
                 query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `email`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email.text}', '{password.text}');";
                 MS_Command = new MySqlCommand(query, MS_Connection);
@@ -135,23 +92,30 @@ public class Registration : MonoBehaviour
                 MS_Command.ExecuteNonQuery();
                 Debug.Log("Added");
             }
-            else if (firstname.text == null && lastname.text == null && username.text == null && email.text == null && password.text == null && password.text == null)
-            {
-                errortext = "Nem adtál meg minden adatot";
-            }
-            else if (password != confirmpassword)
-            {
-                errortext = "A megadott jelszavak nem egyeznek meg";
-            }else if(password.text.Length !>= 8)
-            {
-                errortext = "Nem megfelelõ a jelszó hossza!";
-            }
             else
             {
-                errortext = "Hibás adatok";
+                if (firstname.text == null || lastname.text == null || username.text == null || email.text == null || password.text == null || password.text == null)
+                {
+                    errortext = "Nem adtál meg minden adatot";
+                    Debug.Log("Nem adtál meg minden adatot");
+                }
+                else if (password != confirmpassword)
+                {
+                    errortext = "A megadott jelszavak nem egyeznek meg";
+                    Debug.Log("A megadott jelszavak nem egyeznek meg");
+                }
+                else if (password.text.Length! >= 8)
+                {
+                    // password.text.Length !>= 8
+                    errortext = "Nem megfelelõ a jelszó hossza!";
+                    Debug.Log("Nem megfelelõ a jelszó hossza!");
+                }
+                else
+                {
+                    errortext = "Hibás adatok";
+                    Debug.Log("Hibás adatok");
+                }
             }
-
-
         }
         catch (System.Exception) // nem lgol hibát itt
         {
@@ -163,31 +127,10 @@ public class Registration : MonoBehaviour
         }
         finally
         {
-            //valamiért ezzel nem állítja üresre a mezõket
-            /*
-            firstname.text = " ";
-            lastname.text = " ";
-            username.text = " ";
-            password.text = " ";
-            confirmpassword.text = "  ";
-            */
             MS_Connection.Close();
-
         }
-        /*
 
-        connection();
-        query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `email`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email.text}', '{password.text}');";
-        MS_Command = new MySqlCommand(query, MS_Connection);
-
-        MS_Command.ExecuteNonQuery();
-
-        MS_Connection.Close();
-        */
     }
-
-
-
 
     public void connection()
     {
