@@ -4,6 +4,7 @@ using UnityEngine;
 using MySql.Data.MySqlClient;
 using UnityEngine.UI;
 using TMPro;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class Registration : MonoBehaviour
 {
@@ -30,6 +31,30 @@ public class Registration : MonoBehaviour
     string query;
 
     string errortext = "";
+
+
+    string usernameCheck;
+
+    public void userCheck()
+    {
+        connection();
+        username.text = usernameCheck;
+        try
+        {
+            if (username.text != null)
+            {
+                query = $"SELECT * FROM `users` WHERE {usernameCheck}";
+            }
+
+            //MS_Connection = new MySqlConnection(connectionString);
+            //MS_Connection.Open();   
+        }
+        catch (System.Exception)
+        {
+
+            throw;
+        }
+    }
 
     // inserting the data
     public void registration()
@@ -103,6 +128,8 @@ public class Registration : MonoBehaviour
         MS_Connection.Close();
         */
     }
+
+
 
 
     public void connection()

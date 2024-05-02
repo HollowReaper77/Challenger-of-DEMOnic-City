@@ -18,6 +18,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "CarController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "CheckpointsAndLaps",
             "moduleName": "",
             "usedInScenes": []
@@ -44,8 +51,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -56,8 +62,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -82,8 +87,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -101,8 +105,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -120,9 +123,15 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "OLDCameraFollow",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -134,7 +143,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "PlayerController",
+            "fullManagedTypeName": "Registration",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -251,8 +260,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -305,8 +313,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -317,8 +324,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -329,8 +335,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -341,8 +346,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -353,8 +357,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -365,8 +368,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -377,8 +379,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -389,8 +390,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -401,8 +401,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -413,8 +412,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -439,8 +437,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -451,8 +448,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -463,8 +459,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -475,8 +470,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -487,8 +481,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -499,8 +492,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -510,7 +502,8 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Race 1.unity"
+                "Assets/Scenes/Race 1.unity",
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -521,8 +514,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -533,8 +525,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -545,8 +536,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -557,8 +547,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -585,8 +574,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -597,8 +585,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -616,8 +603,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -646,8 +632,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -668,8 +653,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -680,8 +664,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -692,8 +675,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -704,8 +686,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -716,8 +697,7 @@
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
                 "Assets/Scenes/Race 1.unity",
-                "Assets/Scenes/Race 2.unity",
-                "Assets/Scenes/Race 3.unity"
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {

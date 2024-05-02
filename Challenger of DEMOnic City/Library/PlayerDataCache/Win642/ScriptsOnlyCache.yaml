@@ -2,11 +2,13 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraFollow
+    - CarController
     - CheckpointsAndLaps
     - DontDestroy
     - KeyBindigScript
+    - OLDCameraFollow
     - PauseMenu
-    - PlayerController
+    - Registration
     - SceneManager
     - Wheel
     Unity.Rider.Editor.dll:
@@ -40,6 +42,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
   serializedClasses:
+    Assembly-CSharp:
+    - .CarController/Wheel
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -78,6 +82,57 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: QuitGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: KeyBindigScript
     methodName: SaveKeys
@@ -87,117 +142,12 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: KeyBindigScript
-    methodName: ChangeKey
-  - assembly: Assembly-CSharp
-    fullTypeName: KeyBindigScript
-    methodName: ChangeKey
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: KeyBindigScript
-    methodName: ChangeKey
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: OpenScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: QuitGame
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
     methodName: QuitGame
   - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: OpenScene
+    fullTypeName: KeyBindigScript
+    methodName: ChangeKey
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -219,6 +169,21 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: OpenScene
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -232,8 +197,50 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Object
-    methodName: set_name
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: KeyBindigScript
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: OpenScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: KeyBindigScript
+    methodName: ChangeKey
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Registration
+    methodName: registration
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: BackToMenu
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
     methodName: OpenScene
@@ -267,21 +274,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
     methodName: BackToMenu
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Object
-    methodName: set_name
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: BackToMenu
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -322,37 +314,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17836}
     - Class: 114
-      Script: {instanceID: 24448}
+      Script: {instanceID: 24452}
     - Class: 114
-      Script: {instanceID: 24674}
+      Script: {instanceID: 24678}
     - Class: 114
-      Script: {instanceID: 25118}
+      Script: {instanceID: 25122}
     - Class: 114
-      Script: {instanceID: 25484}
+      Script: {instanceID: 25490}
     - Class: 114
-      Script: {instanceID: 25532}
+      Script: {instanceID: 25538}
     - Class: 114
-      Script: {instanceID: 25718}
+      Script: {instanceID: 25724}
     - Class: 114
-      Script: {instanceID: 26032}
+      Script: {instanceID: 26040}
     - Class: 114
-      Script: {instanceID: 26144}
+      Script: {instanceID: 26152}
     - Class: 114
-      Script: {instanceID: 26302}
+      Script: {instanceID: 26310}
     - Class: 114
-      Script: {instanceID: 26336}
+      Script: {instanceID: 26344}
     - Class: 114
-      Script: {instanceID: 26534}
+      Script: {instanceID: 26542}
     - Class: 114
-      Script: {instanceID: 28024}
+      Script: {instanceID: 27334}
     - Class: 114
-      Script: {instanceID: 28442}
+      Script: {instanceID: 28032}
     - Class: 114
-      Script: {instanceID: 28584}
+      Script: {instanceID: 28450}
     - Class: 114
-      Script: {instanceID: 28668}
+      Script: {instanceID: 28592}
     - Class: 114
-      Script: {instanceID: 29482}
+      Script: {instanceID: 28676}
+    - Class: 114
+      Script: {instanceID: 29490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -407,37 +401,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 24448}
+      Script: {instanceID: 24452}
     - Class: 114
-      Script: {instanceID: 24674}
+      Script: {instanceID: 24678}
     - Class: 114
-      Script: {instanceID: 25718}
+      Script: {instanceID: 25412}
     - Class: 114
-      Script: {instanceID: 25886}
+      Script: {instanceID: 25724}
     - Class: 114
-      Script: {instanceID: 26144}
+      Script: {instanceID: 25834}
     - Class: 114
-      Script: {instanceID: 26302}
+      Script: {instanceID: 25894}
     - Class: 114
-      Script: {instanceID: 26336}
+      Script: {instanceID: 26152}
     - Class: 114
-      Script: {instanceID: 26534}
+      Script: {instanceID: 26310}
     - Class: 114
-      Script: {instanceID: 27840}
+      Script: {instanceID: 26344}
     - Class: 114
-      Script: {instanceID: 28058}
+      Script: {instanceID: 26542}
     - Class: 114
-      Script: {instanceID: 28206}
+      Script: {instanceID: 27848}
     - Class: 114
-      Script: {instanceID: 28668}
+      Script: {instanceID: 28066}
     - Class: 114
-      Script: {instanceID: 28744}
+      Script: {instanceID: 28214}
     - Class: 114
-      Script: {instanceID: 28902}
+      Script: {instanceID: 28676}
     - Class: 114
-      Script: {instanceID: 29282}
+      Script: {instanceID: 29290}
     - Class: 114
-      Script: {instanceID: 29482}
+      Script: {instanceID: 29490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -479,68 +473,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 24448}
-    - Class: 114
-      Script: {instanceID: 24674}
-    - Class: 114
-      Script: {instanceID: 25718}
-    - Class: 114
-      Script: {instanceID: 26302}
-    - Class: 114
-      Script: {instanceID: 26534}
-    - Class: 114
-      Script: {instanceID: 27840}
-    - Class: 114
-      Script: {instanceID: 28668}
-    - Class: 114
-      Script: {instanceID: 29282}
-    - Class: 114
-      Script: {instanceID: 29482}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/Race 3.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -553,23 +486,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 24448}
+      Script: {instanceID: 24452}
     - Class: 114
-      Script: {instanceID: 24674}
+      Script: {instanceID: 24678}
     - Class: 114
-      Script: {instanceID: 25718}
+      Script: {instanceID: 25724}
     - Class: 114
-      Script: {instanceID: 26302}
+      Script: {instanceID: 26310}
     - Class: 114
-      Script: {instanceID: 26534}
+      Script: {instanceID: 26542}
     - Class: 114
-      Script: {instanceID: 27840}
+      Script: {instanceID: 27848}
     - Class: 114
-      Script: {instanceID: 28668}
+      Script: {instanceID: 28676}
     - Class: 114
-      Script: {instanceID: 29282}
+      Script: {instanceID: 29290}
     - Class: 114
-      Script: {instanceID: 29482}
+      Script: {instanceID: 29490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -793,6 +726,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c24246405abeb72c4f9f653e37894aec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraFollow
+  - hash:
+      serializedVersion: 2
       Hash: c78ed13f6b5a632d70d4f73f56ad81f2
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -853,6 +792,12 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: 62c53f864d469692fa29723af4d9355b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CarController
+  - hash:
+      serializedVersion: 2
       Hash: 7bdff9e91edfd9600f92a185def7e34a
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -865,10 +810,10 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 6e1e4fbabe36a019decc862274c3113b
+      Hash: 9d26597a2e44ce25165052d3bc81de67
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: CameraFollow
+    className: OLDCameraFollow
   - hash:
       serializedVersion: 2
       Hash: 96e7bcfd2d072992dab64ac44058b930
@@ -943,7 +888,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 94c8ad0d3e9b8e104c40cafbd97cc85f
+      Hash: bfe31522ab68d9485e52f55838e0862b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SceneManager
@@ -1099,7 +1044,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a360e1f39cc20a608377dd82226681c9
+      Hash: db71ce6d63e16dd2bf9fdb10b0213b40
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Registration
@@ -1681,15 +1626,14 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: f81bee3d231e5eb5e36c4e021be00783
+      Hash: 7cf58e144c7043a092af82071057a5f4
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: CarController
+    className: OLDCarController
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Race 1.unity
   - Assets/Scenes/Race 2.unity
-  - Assets/Scenes/Race 3.unity
-  playerPath: C:/Git/Challenger-of-DEMOnic-City/Demos/Demo 2.3/Challenger of DEMOnic
-    City.exe
+  playerPath: "C:/Git/Challenger-of-DEMOnic-City/Demos/\xD3rai/Challenger of DEMOnic
+    City.exe"

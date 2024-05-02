@@ -1,11 +1,13 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="CameraFollow" preserve="nothing"/>
+		<type fullname="CarController" preserve="nothing"/>
 		<type fullname="CheckpointsAndLaps" preserve="nothing"/>
 		<type fullname="DontDestroy" preserve="nothing"/>
 		<type fullname="KeyBindigScript" preserve="nothing"/>
+		<type fullname="OLDCameraFollow" preserve="nothing"/>
 		<type fullname="PauseMenu" preserve="nothing"/>
-		<type fullname="PlayerController" preserve="nothing"/>
+		<type fullname="Registration" preserve="nothing"/>
 		<type fullname="SceneManager" preserve="nothing"/>
 		<type fullname="Wheel" preserve="nothing"/>
 	</assembly>

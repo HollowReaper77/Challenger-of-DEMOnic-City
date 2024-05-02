@@ -71,7 +71,7 @@ public class CheckpointsAndLaps : MonoBehaviour
             currentLapTime += Time.deltaTime;
             //timeText.text = currentLapTime.ToString();
             timeText.text = $"Time: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00:000}";
-            TotalTimeText.text = $"Time: {Mathf.FloorToInt(racetime / 60)}:{racetime % 60:00:000}";
+            TotalTimeText.text = $"Total time: {Mathf.FloorToInt(racetime / 60)}:{racetime % 60:00:000}";
 
             if (bestLap == 0)
             {
