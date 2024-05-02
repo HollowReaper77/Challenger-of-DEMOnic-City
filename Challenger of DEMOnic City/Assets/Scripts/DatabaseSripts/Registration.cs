@@ -5,6 +5,8 @@ using MySql.Data.MySqlClient;
 using UnityEngine.UI;
 using TMPro;
 using static UnityEngine.UIElements.UxmlAttributeDescription;
+using Unity.VisualScripting;
+using System;
 
 public class Registration : MonoBehaviour
 {
@@ -15,19 +17,15 @@ public class Registration : MonoBehaviour
     public TextMeshProUGUI email;
     public TextMeshProUGUI password;
     public TextMeshProUGUI confirmpassword;
-    /*
-    [Header("InputValues")]
-    public string firstnameValue;
-    public string lastnameValue;
-    public string usernameValue;
-    public string passwordValue;
-    public string confirmpasswordValue;
-    */
+    
     [Header("UI")]
     public TextMeshProUGUI errorMessage;
+
+    // DB variables
     private string connectionString;
     private MySqlConnection MS_Connection;
     private MySqlCommand MS_Command;
+    private MySqlDataReader MS_Reader;
     string query;
 
     string errortext = "";
@@ -38,21 +36,80 @@ public class Registration : MonoBehaviour
     public void userCheck()
     {
         connection();
-        username.text = usernameCheck;
+        //username.text = usernameCheck;
         try
         {
-            if (username.text != null)
+            // SELECT COUNT(`username`) FROM `users` WHERE 1;
+            //SELECT COUNT(`username`) FROM `users` WHERE `username` = 'sdfg';
+            
+            query = $"SELECT COUNT(*) FROM `users` WHERE `username` = '{username.text}';";
+
+            MS_Command = new MySqlCommand(query, MS_Connection);
+
+            MS_Reader = MS_Command.ExecuteReader();
+            while (MS_Reader.Read())
             {
-                query = $"SELECT * FROM `users` WHERE {usernameCheck}";
+                //usernameCheck = MS_Reader[0].ToString();
+                usernameCheck = MS_Reader[0].ToString();
+
+                Debug.Log(usernameCheck);
+            }
+            Debug.Log(usernameCheck);
+            if (Convert.ToInt32(usernameCheck) == 0)
+            {
+                registration();
+            }
+            else
+            {
+                Debug.Log("Szerepel már benne");
             }
 
+
+
+
+
+
+            /*
+            if (usernameCheck.ToI = 1)
+            {
+                registration();
+
+            }
+            else
+            {
+                Debug.Log("Szerepel már benne");
+            }
+            */
+            /*
+            Debug.Log(query);
+            int count = Convert.ToInt32(query);
+            if (count >= 1)
+            {
+                errortext = "This username is already taken.";
+                Debug.Log(errortext);
+            }
+            */
+
+            /*
+            if (username.text != null)
+            {
+                errorMessage.text = "This username is already taken.";
+            }
+            */
             //MS_Connection = new MySqlConnection(connectionString);
-            //MS_Connection.Open();   
+            //MS_Connection.Open();
+            //
+
         }
         catch (System.Exception)
         {
-
-            throw;
+            //errorMessage.text = errortext;
+            //throw;
+        }
+        finally
+        {
+            //registration();
+            MS_Connection.Close();
         }
     }
 

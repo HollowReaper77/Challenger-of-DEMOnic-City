@@ -5359,7 +5359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &757499290
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5373,10 +5373,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 815390282}
-  - {fileID: 1130202550}
-  - {fileID: 942084481}
   - {fileID: 1106874672}
   - {fileID: 1149273258}
+  - {fileID: 1130202550}
+  - {fileID: 942084481}
   - {fileID: 1233498964}
   - {fileID: 2078814422}
   - {fileID: 1666238261}
@@ -9405,9 +9405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b58f9a8bcb5fe42a6050bedc9c4d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstname: {fileID: 1329044237}
-  lastname: {fileID: 2095169057}
-  username: {fileID: 541262671}
+  firstname: {fileID: 2095169057}
+  lastname: {fileID: 541262671}
+  username: {fileID: 1329044237}
   email: {fileID: 294741465}
   password: {fileID: 240559438}
   confirmpassword: {fileID: 1644357927}
@@ -10997,7 +10997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: registration
+      value: userCheck
       objectReference: {fileID: 0}
     - target: {fileID: 7896311975325903754, guid: 103ab6170a1972d4686900876edd52e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -11726,7 +11726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1760450282
 Transform:
   m_ObjectHideFlags: 0
