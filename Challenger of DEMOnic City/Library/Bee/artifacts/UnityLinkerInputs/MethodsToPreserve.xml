@@ -7,13 +7,20 @@
 			<method name="ChangeKey"/>
 			<method name="SaveKeys"/>
 		</type>
+		<type fullname="Login">
+			<method name="login"/>
+			<method name="logout"/>
+		</type>
 		<type fullname="Registration">
-			<method name="registration"/>
+			<method name="userCheck"/>
 		</type>
 		<type fullname="SceneManager">
 			<method name="BackToMenu"/>
 			<method name="BackToMenu"/>
 			<method name="BackToMenu"/>
+			<method name="BackToMenu"/>
+			<method name="OpenScene"/>
+			<method name="OpenScene"/>
 			<method name="OpenScene"/>
 			<method name="OpenScene"/>
 			<method name="OpenScene"/>
@@ -73,9 +80,12 @@
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
-		</type>
-		<type fullname="UnityEngine.Object">
-			<method name="set_name"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
 		</type>
 	</assembly>
 </linker>

@@ -5,11 +5,12 @@
 		<type fullname="CheckpointsAndLaps" preserve="nothing"/>
 		<type fullname="DontDestroy" preserve="nothing"/>
 		<type fullname="KeyBindigScript" preserve="nothing"/>
-		<type fullname="OLDCameraFollow" preserve="nothing"/>
+		<type fullname="Login" preserve="nothing"/>
 		<type fullname="PauseMenu" preserve="nothing"/>
 		<type fullname="Registration" preserve="nothing"/>
 		<type fullname="SceneManager" preserve="nothing"/>
-		<type fullname="Wheel" preserve="nothing"/>
+		<type fullname="ScoreBoard1" preserve="nothing"/>
+		<type fullname="ScoreBoard2" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>

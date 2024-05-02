@@ -91,6 +91,13 @@
             ]
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Login",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "MultiplayerManager",
             "fullManagedTypeName": "",
@@ -129,13 +136,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "OLDCameraFollow",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "PauseMenu",
             "moduleName": "",
             "usedInScenes": []
@@ -165,6 +165,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "SceneManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ScoreBoard1",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ScoreBoard2",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -556,7 +570,8 @@
             "fullManagedTypeName": "UnityEngine.PhysicMaterial",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Race 1.unity"
+                "Assets/Scenes/Race 1.unity",
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -612,7 +627,8 @@
             "fullManagedTypeName": "UnityEngine.RenderTexture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Race 1.unity"
+                "Assets/Scenes/Race 1.unity",
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -621,7 +637,8 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Race 1.unity"
+                "Assets/Scenes/Race 1.unity",
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -642,7 +659,8 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/MainMenu.unity",
-                "Assets/Scenes/Race 1.unity"
+                "Assets/Scenes/Race 1.unity",
+                "Assets/Scenes/Race 2.unity"
             ]
         },
         {
@@ -755,15 +773,9 @@
             "fullManagedTypeName": "UnityEngine.WheelCollider",
             "moduleName": "Vehicles",
             "usedInScenes": [
-                "Assets/Scenes/Race 1.unity"
+                "Assets/Scenes/Race 1.unity",
+                "Assets/Scenes/Race 2.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Wheel",
-            "moduleName": "",
-            "usedInScenes": []
         }
     ],
     "allNativeTypes": [

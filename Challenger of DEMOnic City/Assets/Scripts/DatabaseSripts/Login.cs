@@ -3,11 +3,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.Search;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Login : MonoBehaviour
 {
+    [Header("UI Elements")]
+    public GameObject mainMenu;
+    public GameObject loginMenu;
     [Header("InputObjects")]
     public TextMeshProUGUI username;
     public TextMeshProUGUI password;
@@ -18,13 +21,20 @@ public class Login : MonoBehaviour
     private MySqlDataReader MS_Reader;
     string query;
 
+    string aktUsername;
+    string aktPassword;
+
+    [Header("OutPutObject")]
+    public TextMeshProUGUI aktLoggedUser;
+    public GameObject aktLoggedUserObject;
+
     public void login()
     {
         connection();
         try
         {
 
-            query = $"SELECT * FROM users WHERE username = '{username.text}' AND password = '{password.text}';";
+            query = $"SELECT `username`, `password` FROM users WHERE username = '{username.text}' AND password = '{password.text}';";
 
             MS_Command = new MySqlCommand(query, MS_Connection);
 
@@ -33,10 +43,24 @@ public class Login : MonoBehaviour
             {
                 //usernameCheck = MS_Reader[0].ToString();
                 //usernameCheck = MS_Reader[0].ToString();
-
+                
                 //Debug.Log(usernameCheck);
-                Debug.Log(MS_Reader[0].ToString()+ MS_Reader[1].ToString() + MS_Reader[2].ToString() + MS_Reader[3].ToString()+ MS_Reader[4].ToString());
+                aktUsername = MS_Reader.GetString(0);
+                aktPassword = MS_Reader.GetString(1);
+                Debug.Log(MS_Reader[0].ToString() +" "+ MS_Reader[1].ToString());
             }
+
+            if (username.text == aktUsername && password.text == aktPassword)
+            {
+
+                aktLoggedUser.text = aktUsername;
+                mainMenu.SetActive(true);
+                loginMenu.SetActive(false);
+
+            }
+
+
+            /*
             //Debug.Log(usernameCheck);
             if (Convert.ToInt32(true) == 0)
             {
@@ -46,6 +70,7 @@ public class Login : MonoBehaviour
             {
                 Debug.Log("Hiba a bejelentkezés közben");
             }
+            */
         }
         catch (System.Exception)
         {
@@ -56,6 +81,12 @@ public class Login : MonoBehaviour
         {
             MS_Connection.Close();
         }
+    }
+
+    public void logout()
+    {
+        mainMenu.SetActive(false);
+        loginMenu.SetActive(true);
     }
 
     public void connection()

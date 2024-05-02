@@ -84,36 +84,34 @@ public class Registration : MonoBehaviour
         try
         {
             // ha megfelel teljesen
-            //   if (password.text == confirmpassword.text && (password.text.Length >= 8) && (firstname.text != null && lastname.text != null && username.text != null && email.text != null && password.text != null && password.text != null) && Convert.ToInt32(usernameCheck) == 0)
-            if (firstname.text == null && lastname.text == null && username.text == null && email.text == null && password.text == null && password.text == null)
+            // if (password.text == confirmpassword.text && (password.text.Length >= 8) && (firstname.text != null && lastname.text != null && username.text != null && email.text != null && password.text != null && password.text != null) && Convert.ToInt32(usernameCheck) == 0)
+            if (password.text == confirmpassword.text && (password.text.Length >= 8) && (firstname.text != null && lastname.text != null && username.text != null && email.text != null && password.text != null && password.text != null) && Convert.ToInt32(usernameCheck) == 0)
+            {
+                query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `email`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email.text}', '{password.text}');";
+                MS_Command = new MySqlCommand(query, MS_Connection);
+
+                MS_Command.ExecuteNonQuery();
+                Debug.Log("Added");
+            }
+            else if (firstname.text == null || lastname.text == null || username.text == null || email.text == null || password.text == null || password.text == null)
             {
                 errortext = "Nem adtál meg minden adatot";
                 Debug.Log("Nem adtál meg minden adatot");
             }
+            else if (password != confirmpassword)
+            {
+                errortext = "A megadott jelszavak nem egyeznek meg";
+                Debug.Log("A megadott jelszavak nem egyeznek meg");
+            }else if(password.text.Length !>= 8)
+            {
+                // password.text.Length !>= 8
+                errortext = "Nem megfelelõ a jelszó hossza!";
+                Debug.Log("Nem megfelelõ a jelszó hossza!");
+            }
             else
             {
-                if (password.text != confirmpassword.text)
-                {
-                    errortext = "A megadott jelszavak nem egyeznek meg";
-                    Debug.Log("A megadott jelszavak nem egyeznek meg");
-                }
-                else
-                {
-                    if (password.text.Length !>= 8)
-                    {
-                        // password.text.Length !>= 8
-                        errortext = "Nem megfelelõ a jelszó hossza!";
-                        Debug.Log("Nem megfelelõ a jelszó hossza!");
-                    }
-                    else
-                    {
-                        query = $"INSERT INTO `users`(`firstname`, `lastname`, `username`, `email`, `password`) VALUES ('{firstname.text}','{lastname.text}','{username.text}','{email.text}', '{password.text}');";
-                        MS_Command = new MySqlCommand(query, MS_Connection);
-
-                        MS_Command.ExecuteNonQuery();
-                        Debug.Log("Added");
-                    }
-                }
+                errortext = "Hibás adatok";
+                Debug.Log("Hibás adatok");
             }
         }
         catch (System.Exception) // nem lgol hibát itt

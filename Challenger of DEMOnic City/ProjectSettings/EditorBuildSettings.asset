@@ -13,6 +13,6 @@ EditorBuildSettings:
     guid: d0ce2c011b16b334fa80288025b1ce37
   - enabled: 1
     path: Assets/Scenes/Race 2.unity
-    guid: 174d45e665b4f854c9604a00555b50d7
+    guid: da661b1d59504be498a5679608d5a7b3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
