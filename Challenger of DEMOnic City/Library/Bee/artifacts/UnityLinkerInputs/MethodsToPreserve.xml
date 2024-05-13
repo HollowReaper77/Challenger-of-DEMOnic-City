@@ -9,7 +9,6 @@
 		</type>
 		<type fullname="Login">
 			<method name="login"/>
-			<method name="logout"/>
 		</type>
 		<type fullname="Registration">
 			<method name="userCheck"/>
@@ -32,6 +31,8 @@
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>

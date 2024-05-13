@@ -89,21 +89,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: OpenScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -123,8 +108,8 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: Registration
-    methodName: userCheck
+    fullTypeName: SceneManager
+    methodName: OpenScene
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -134,9 +119,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: KeyBindigScript
     methodName: SaveKeys
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: OpenScene
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -144,8 +126,8 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: Login
-    methodName: login
+    fullTypeName: KeyBindigScript
+    methodName: ChangeKey
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -160,46 +142,28 @@ ScriptsOnlyBuild:
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: Login
-    methodName: logout
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+    methodName: login
   - assembly: Assembly-CSharp
-    fullTypeName: KeyBindigScript
-    methodName: ChangeKey
-  - assembly: Assembly-CSharp
-    fullTypeName: KeyBindigScript
-    methodName: ChangeKey
+    fullTypeName: Registration
+    methodName: userCheck
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: QuitGame
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: KeyBindigScript
-    methodName: ChangeKey
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -221,6 +185,12 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: KeyBindigScript
     methodName: ChangeKey
@@ -236,6 +206,39 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: KeyBindigScript
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: OpenScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: KeyBindigScript
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneManager
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: SceneManager
     methodName: BackToMenu
@@ -468,7 +471,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 29472}
     - Class: 114
-      Script: {instanceID: 35610}
+      Script: {instanceID: 34206}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -557,7 +560,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 29472}
     - Class: 114
-      Script: {instanceID: 35610}
+      Script: {instanceID: 34206}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1660,5 +1663,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Race 1.unity
   - Assets/Scenes/Race 2.unity
-  playerPath: C:/Git/Challenger-of-DEMOnic-City/Demos/Demo 2.8.1/Challenger of DEMOnic
+  playerPath: C:/Git/Challenger-of-DEMOnic-City/Demos/Demo 2.8.5/Challenger of DEMOnic
     City.exe

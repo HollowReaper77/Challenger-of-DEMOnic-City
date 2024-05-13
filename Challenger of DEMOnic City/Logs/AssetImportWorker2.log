@@ -1,0 +1,1011 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.7f1 (0a9195b3d453) revision 692629'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'hu' Physical Memory: 32173 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Git/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52414
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Git/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
+C:/Git/Challenger-of-DEMOnic-City/Challenger of DEMOnic City
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13020] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2494334978 [EditorId] 2494334978 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEOHDT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13020] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2494334978 [EditorId] 2494334978 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEOHDT3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 83.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.7f1 (0a9195b3d453)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Git/Challenger-of-DEMOnic-City/Challenger of DEMOnic City/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.135012 seconds.
+- Loaded All Assemblies, in 11.241 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 11765ms
+	BeginReloadAssembly (8995ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (638ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (210ms)
+	LoadAllAssembliesAndSetupDomain (1374ms)
+		LoadAssemblies (8990ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1370ms)
+			TypeCache.Refresh (1369ms)
+				TypeCache.ScanAssembly (1060ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (530ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  6.960 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.171 seconds
+Domain Reload Profiling: 8125ms
+	BeginReloadAssembly (497ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (6318ms)
+		LoadAssemblies (5607ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (862ms)
+			TypeCache.Refresh (829ms)
+				TypeCache.ScanAssembly (815ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1172ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (884ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (761ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3184 unused Assets / (0.9 MB). Loaded Objects now: 3774.
+Memory consumption went from 131.1 MB to 130.2 MB.
+Total: 7.719300 ms (FindLiveObjects: 0.459400 ms CreateObjectMapping: 0.437200 ms MarkObjects: 5.640300 ms  DeleteObjects: 1.180900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 509264.475092 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf9c0fde34cfce20b8bf12b6dbbcf17') in 0.3092306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.123038 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ca7cc68b11b4c87a80e186945746f34') in 0.1346079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.517847 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e7c406c931fa8d418b304484277af19') in 0.1094115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083161 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af3160c74ebefe50ee718dfbba048606') in 0.1200669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2268
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.473105 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cda820550cc3b04aa47852aa65461dc') in 0.1614551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.562955 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edb1b35a82f45dc80ee58b29f3ccb8df') in 0.1133415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066024 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9734b9a2dd8c7f9b8e3e921e5cfa01a') in 0.035165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2268
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.050373 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb5a62d8f41d03d2accee2692462a689') in 0.0820396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.634470 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e6cc33e26fe539c5e3420e574df6a63') in 0.0502541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2268
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983227 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c38a14cbca87cbffa9144f0e052e811f') in 1.2961068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.924445 seconds.
+  path: Assets/Prefabs/UI Elements/MinimapRenderTexture.renderTexture
+  artifactKey: Guid(8a4f63257eb9c1f4b8c977828055d95d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/UI Elements/MinimapRenderTexture.renderTexture using Guid(8a4f63257eb9c1f4b8c977828055d95d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68f5b3db60b922a1bdcf31f112bc6d59') in 0.0385578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.199323 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36900d545d0401c8f7a5016d5d92e0b7') in 1.4249253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.779244 seconds.
+  path: Assets/Scenes/Race 1.unity
+  artifactKey: Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 1.unity using Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6fcd710bd43fc2b8afc9d1664328a3e') in 0.0008773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.754 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.925 seconds
+Domain Reload Profiling: 1673ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (602ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3182 unused Assets / (1.1 MB). Loaded Objects now: 3783.
+Memory consumption went from 156.7 MB to 155.6 MB.
+Total: 9.349200 ms (FindLiveObjects: 0.563900 ms CreateObjectMapping: 0.749000 ms MarkObjects: 5.972500 ms  DeleteObjects: 2.061700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.781 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.963 seconds
+Domain Reload Profiling: 1741ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (964ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (579ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3182 unused Assets / (1.4 MB). Loaded Objects now: 3783.
+Memory consumption went from 158.6 MB to 157.2 MB.
+Total: 8.317700 ms (FindLiveObjects: 0.452300 ms CreateObjectMapping: 0.505600 ms MarkObjects: 5.330300 ms  DeleteObjects: 2.027300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 321.251270 seconds.
+  path: Assets/Scenes/Race 2.unity
+  artifactKey: Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 2.unity using Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f54615c926780c926060d46f0dc0c5e1') in 0.0101511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.476396 seconds.
+  path: Assets/Scenes/Race 1.unity
+  artifactKey: Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 1.unity using Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d59c317a069647062140ea371546220') in 0.0008234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.878005 seconds.
+  path: Assets/Scenes/Race 2.unity
+  artifactKey: Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 2.unity using Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '144dcb4430d280711b26b92ea9f36dab') in 0.0007676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.803 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.980 seconds
+Domain Reload Profiling: 1779ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (981ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (750ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (644ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3182 unused Assets / (1.8 MB). Loaded Objects now: 3783.
+Memory consumption went from 160.5 MB to 158.7 MB.
+Total: 7.346000 ms (FindLiveObjects: 0.470700 ms CreateObjectMapping: 0.236500 ms MarkObjects: 4.499600 ms  DeleteObjects: 2.137100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1035.965092 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e1939bf8e97f8a92101a7a8a9ac73f6') in 0.1955116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.618973 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17c4b3d263e8a4e966b2b3038ae047dd') in 0.0911823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.272091 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65f07d9e4f0c36912b4096136faa64a') in 0.1180889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.837712 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4dd731e16c8768f07f21da37b7d0d8') in 0.1636092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.450091 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ecd6d0f567556b32a49fa48154615db') in 0.1396668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.447563 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3d3972c24177bba8ba1b3a5984b5018') in 0.1688471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.469899 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db89e485dc3dcaf4cf9c757186f11e74') in 0.1385607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.258338 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9763d510942b0c6b5af96a16a2cf0456') in 0.2063834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.285338 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3381d93ce2a00ac6c74c2f2aa467087d') in 0.1512211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.666884 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e5c538d9b8314f3e1006e9969911168') in 0.1163081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.557161 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4677643fa3b5a0de45ca08dca6ac76ee') in 0.1447128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.459356 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b97658fd736b3cc24c6451675e5c42') in 0.0891787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.725506 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2475e23813be4a0d26bc18d109b7cbf3') in 0.1624556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.508292 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f1e92a3ee8791008d66c385dd46e870') in 0.1524797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.596754 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a541c69740821b79ef2ca7543cd971af') in 0.0843822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.183463 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd99b9c6eba24976755021a4e0e592f') in 0.1333833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.719413 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fa7ec70d2e25209506a746312a4df3e') in 0.1156013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.213070 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f94706ad0775d3970154c7bcda1e0b2') in 0.1289936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.850096 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7829c5cff5984a8f18e48df11f88a6e') in 0.1023005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.566898 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27021155345a6cd7c2d180af1a9577b5') in 0.0980734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.039889 seconds.
+  path: Assets/Scenes/Race 2.unity
+  artifactKey: Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 2.unity using Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7517787dd8a424633a2a4ff5028b1f9d') in 0.0009418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.898202 seconds.
+  path: Assets/Scenes/Race 1.unity
+  artifactKey: Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 1.unity using Guid(d0ce2c011b16b334fa80288025b1ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1e74a9dbe270dce9961a7275ed8abb9') in 0.0006995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.898 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1773ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (444ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (181ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3182 unused Assets / (1.2 MB). Loaded Objects now: 3783.
+Memory consumption went from 164.3 MB to 163.1 MB.
+Total: 7.778000 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.374600 ms MarkObjects: 4.795500 ms  DeleteObjects: 2.113100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 434.174195 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6eede761048211009191c998390b268') in 1.6792069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.829242 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '419af854562fe7cc62a41a08c7bdf5a2') in 1.3939464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.330756 seconds.
+  path: Assets/Prefabs/Races/Roads/MainRoad_Part.prefab
+  artifactKey: Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Roads/MainRoad_Part.prefab using Guid(96402dd61cd452c4fa91650a6f7464c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fc21527b16dc167a6bbf44c05ff3ca4') in 0.0945758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2698
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.561969 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a29a0c57fdb4b8de48a7efddd86573c') in 1.6496577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.927346 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da912058d094a33ea77512ae47ea5e42') in 1.4482836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.392410 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4c6f40b9823824cae4a35dd43fa6378') in 1.4195592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.792910 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ad695e249f7c9876e4c455925595f27') in 1.4455585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.321185 seconds.
+  path: Assets/Prefabs/Races/Race World.prefab
+  artifactKey: Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Races/Race World.prefab using Guid(df27e1ea4111deb43a306deb6729fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23048a1c5d09ee633a66112d22b1668d') in 1.6190258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79114
+
+========================================================================
+Received Import Request.
+  Time since last request: 507.591777 seconds.
+  path: Assets/Scenes/Race 2.unity
+  artifactKey: Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Race 2.unity using Guid(da661b1d59504be498a5679608d5a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbfbf68fce7b9ab58b3953489b592d0e') in 0.0012454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.047 seconds
+Domain Reload Profiling: 1846ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1047ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (623ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3182 unused Assets / (1.2 MB). Loaded Objects now: 3783.
+Memory consumption went from 179.1 MB to 177.9 MB.
+Total: 7.923000 ms (FindLiveObjects: 0.503300 ms CreateObjectMapping: 0.631800 ms MarkObjects: 4.869500 ms  DeleteObjects: 1.916300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.807 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.114 seconds
+Domain Reload Profiling: 1920ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (406ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1115ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (650ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3182 unused Assets / (1.3 MB). Loaded Objects now: 3783.
+Memory consumption went from 181.0 MB to 179.7 MB.
+Total: 6.504700 ms (FindLiveObjects: 0.525600 ms CreateObjectMapping: 0.236700 ms MarkObjects: 4.103100 ms  DeleteObjects: 1.636800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Git\Challenger-of-DEMOnic-City\Challenger of DEMOnic City\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.184 seconds
+Domain Reload Profiling: 2000ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1185ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (844ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (683ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3182 unused Assets / (1.3 MB). Loaded Objects now: 3783.
+Memory consumption went from 182.9 MB to 181.6 MB.
+Total: 7.192900 ms (FindLiveObjects: 0.624800 ms CreateObjectMapping: 0.302000 ms MarkObjects: 4.683500 ms  DeleteObjects: 1.581000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
