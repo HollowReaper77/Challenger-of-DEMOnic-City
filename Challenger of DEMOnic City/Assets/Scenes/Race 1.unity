@@ -4174,10 +4174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524299081f31d5c419888c43ec993a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
-  eulerRotation: {x: 0, y: 0, z: 0}
-  damper: 0
 --- !u!1001 &980968906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5191,11 +5187,6 @@ Transform:
   - {fileID: 720736602}
   m_Father: {fileID: 244659261}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1325712644 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8490741016479115098, guid: 01a7c80e390119f4595c78560297f348, type: 3}
-  m_PrefabInstance: {fileID: 1977017129}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1332120170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6855,9 +6846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finishMenuUI: {fileID: 1942264128}
   start: {fileID: 1838926369}
-  end: {fileID: 1325712644}
+  end: {fileID: 1838926369}
   checkpoints:
-  - {fileID: 1838926369}
   - {fileID: 1840741938}
   - {fileID: 491224638}
   - {fileID: 777799310}
@@ -6865,7 +6855,6 @@ MonoBehaviour:
   - {fileID: 1535732913}
   - {fileID: 1386328162}
   - {fileID: 130555917}
-  - {fileID: 1325712644}
   laps: 3
   currentCheckpoint: 0
   currentLap: 0
